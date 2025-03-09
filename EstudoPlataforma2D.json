@@ -910,6 +910,14 @@
         "name": "NewTiledSprite",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "Spike.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Spike.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -950,23 +958,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 125,
-          "keepRatio": true,
-          "layer": "",
-          "name": "CorpoColisaoChao",
-          "persistentUuid": "7fc17f64-2386-4593-a2ab-5b2b334b26a5",
-          "width": 615,
-          "x": 1103,
-          "y": 972,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "depth": 0,
           "height": 100,
           "keepRatio": true,
@@ -982,7 +973,7 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
+          "angle": 270,
           "customSize": true,
           "depth": 1,
           "height": 125,
@@ -990,10 +981,78 @@
           "layer": "",
           "name": "CorpoColisaoChao",
           "persistentUuid": "5be2f60a-6e16-4782-84c0-7dc5f23b5319",
-          "width": 615,
-          "x": -29,
-          "y": 977,
+          "width": 1193,
+          "x": 1483,
+          "y": 481,
           "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 125,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CorpoColisaoChao",
+          "persistentUuid": "576fca9f-9c9f-485c-8d29-119de7a1a71a",
+          "width": 2100,
+          "x": -29,
+          "y": 1012,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 125,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CorpoColisaoChao",
+          "persistentUuid": "5f8a2848-3b34-4829-bd16-ae02631b302c",
+          "width": 2106,
+          "x": -60,
+          "y": -56,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 125,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CorpoColisaoChao",
+          "persistentUuid": "2096b10a-100d-42e6-b73e-ea47c63a4898",
+          "width": 1193,
+          "x": -613,
+          "y": 479,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2.666666666666666,
+          "height": 40,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spike",
+          "persistentUuid": "acb28e97-18d9-4153-89e0-955f23517b89",
+          "width": 40,
+          "x": 667,
+          "y": 973,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1033,6 +1092,7 @@
               "WasJumpKeyReleased": false
             },
             {
+              "ignoreDefaultControls": true,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
@@ -1041,7 +1101,6 @@
               "canGrabWithoutMoving": true,
               "deceleration": 1500,
               "gravity": 1000,
-              "ignoreDefaultControls": false,
               "jumpSpeed": 1000,
               "jumpSustainTime": 0.2,
               "ladderClimbingSpeed": 150,
@@ -3270,6 +3329,66 @@
               "yGrabOffset": 0
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Spike",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Spike.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 9
+                          },
+                          {
+                            "x": 15,
+                            "y": 9
+                          },
+                          {
+                            "x": 15,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -3277,6 +3396,9 @@
         "children": [
           {
             "objectName": "Player"
+          },
+          {
+            "objectName": "Spike"
           },
           {
             "objectName": "CorpoColisaoChao"
@@ -3461,100 +3583,184 @@
               "colorG": 255,
               "colorR": 0,
               "creationTime": 0,
-              "name": "Movimentacoes",
+              "name": "Movimentações",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::CurrentSpeed"
-                      },
-                      "parameters": [
-                        "Player",
-                        "PlatformerObject",
-                        ">",
-                        "0"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "FlippableCapability::FlippableBehavior::FlipX"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Flippable",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::CurrentSpeed"
-                      },
-                      "parameters": [
-                        "Player",
-                        "PlatformerObject",
-                        "<",
-                        "0"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "FlippableCapability::FlippableBehavior::FlipX"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Flippable",
-                        "yes"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::IsOnFloor"
-                      },
-                      "parameters": [
-                        "Player",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Player",
-                        "ativaPuloDuplo",
-                        "=",
-                        "0"
-                      ]
-                    }
-                  ],
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "folded": true,
+                  "name": "Movimentações Base",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
                   "events": [
                     {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
                           "type": {
-                            "inverted": true,
-                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                            "value": "KeyFromTextPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "\"a\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::SimulateLeftKey"
+                          },
+                          "parameters": [
+                            "Player",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "KeyFromTextPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "\"d\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::SimulateRightKey"
+                          },
+                          "parameters": [
+                            "Player",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "KeyFromTextPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Space\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::SimulateJumpKey"
+                          },
+                          "parameters": [
+                            "Player",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "folded": true,
+                  "name": "Flip Player",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::CurrentSpeed"
+                          },
+                          "parameters": [
+                            "Player",
+                            "PlatformerObject",
+                            ">",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "FlippableCapability::FlippableBehavior::FlipX"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Flippable",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::CurrentSpeed"
+                          },
+                          "parameters": [
+                            "Player",
+                            "PlatformerObject",
+                            "<",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "FlippableCapability::FlippableBehavior::FlipX"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Flippable",
+                            "yes"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "folded": true,
+                  "name": "Pulo Player",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "folded": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::IsOnFloor"
                           },
                           "parameters": [
                             "Player",
@@ -3565,13 +3771,70 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                            "value": "SetNumberObjectVariable"
                           },
                           "parameters": [
                             "Player",
-                            "Animation",
+                            "ativaPuloDuplo",
                             "=",
-                            "\"Parado\""
+                            "0"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                              },
+                              "parameters": [
+                                "Player",
+                                "PlatformerObject"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Player",
+                                "Animation",
+                                "=",
+                                "\"Parado\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                              },
+                              "parameters": [
+                                "Player",
+                                "PlatformerObject"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Player",
+                                "Animation",
+                                "=",
+                                "\"Correr\""
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -3581,170 +3844,13 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                            "value": "PlatformBehavior::IsJumping"
                           },
                           "parameters": [
                             "Player",
                             "PlatformerObject"
                           ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "Player",
-                            "Animation",
-                            "=",
-                            "\"Correr\""
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::IsJumping"
-                      },
-                      "parameters": [
-                        "Player",
-                        "PlatformerObject"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Player",
-                        "ativaPuloDuplo",
-                        "=",
-                        "0"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Animation",
-                        "=",
-                        "\"Pular\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::IsFalling"
-                      },
-                      "parameters": [
-                        "Player",
-                        "PlatformerObject"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Animation",
-                        "=",
-                        "\"Cair\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::IsJumping"
-                      },
-                      "parameters": [
-                        "Player",
-                        "PlatformerObject"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
-                      },
-                      "parameters": [
-                        "Player",
-                        "PlatformerObject",
-                        "\"Jump\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Player",
-                        "ativaPuloDuplo",
-                        "<",
-                        "2"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::SetCanJump"
-                      },
-                      "parameters": [
-                        "Player",
-                        "PlatformerObject"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::SimulateJumpKey"
-                      },
-                      "parameters": [
-                        "Player",
-                        "PlatformerObject"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Player",
-                        "ativaPuloDuplo",
-                        "+",
-                        "1"
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
+                        },
                         {
                           "type": {
                             "value": "NumberObjectVariable"
@@ -3752,8 +3858,8 @@
                           "parameters": [
                             "Player",
                             "ativaPuloDuplo",
-                            ">",
-                            "1"
+                            "=",
+                            "0"
                           ]
                         }
                       ],
@@ -3766,12 +3872,144 @@
                             "Player",
                             "Animation",
                             "=",
-                            "\"PuloDuplo\""
+                            "\"Pular\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::IsFalling"
+                          },
+                          "parameters": [
+                            "Player",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Animation",
+                            "=",
+                            "\"Cair\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "folded": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::IsJumping"
+                          },
+                          "parameters": [
+                            "Player",
+                            "PlatformerObject"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+                          },
+                          "parameters": [
+                            "Player",
+                            "PlatformerObject",
+                            "\"Jump\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "ativaPuloDuplo",
+                            "<",
+                            "2"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::SetCanJump"
+                          },
+                          "parameters": [
+                            "Player",
+                            "PlatformerObject"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::SimulateJumpKey"
+                          },
+                          "parameters": [
+                            "Player",
+                            "PlatformerObject"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "ativaPuloDuplo",
+                            "+",
+                            "1"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "ativaPuloDuplo",
+                                ">",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Player",
+                                "Animation",
+                                "=",
+                                "\"PuloDuplo\""
+                              ]
+                            }
                           ]
                         }
                       ]
                     }
-                  ]
+                  ],
+                  "parameters": []
                 }
               ],
               "parameters": []
