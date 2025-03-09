@@ -1007,23 +1007,6 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 125,
-          "keepRatio": true,
-          "layer": "",
-          "name": "CorpoColisaoChao",
-          "persistentUuid": "5f8a2848-3b34-4829-bd16-ae02631b302c",
-          "width": 2106,
-          "x": -60,
-          "y": -56,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
           "angle": 270,
           "customSize": true,
           "depth": 1,
@@ -1056,6 +1039,23 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 125,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CorpoColisaoChao",
+          "persistentUuid": "108489f9-c30e-42d9-b3ff-06d5794e03d0",
+          "width": 2106,
+          "x": -60,
+          "y": -56,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -1080,6 +1080,7 @@
           "effects": [],
           "behaviors": [
             {
+              "isFolded": true,
               "name": "AdvancedJump",
               "type": "AdvancedJump::AdvancedJump",
               "PlatformerBehavior": "PlatformerObject",
@@ -1092,7 +1093,9 @@
               "WasJumpKeyReleased": false
             },
             {
+              "gravity": 1000,
               "ignoreDefaultControls": true,
+              "isFolded": true,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
@@ -1100,7 +1103,6 @@
               "canGrabPlatforms": false,
               "canGrabWithoutMoving": true,
               "deceleration": 1500,
-              "gravity": 1000,
               "jumpSpeed": 1000,
               "jumpSustainTime": 0.2,
               "ladderClimbingSpeed": 150,
@@ -2006,7 +2008,7 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": true,
+                  "looping": false,
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
@@ -3592,7 +3594,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Movimentações Base",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -3680,7 +3681,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Flip Player",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -3749,7 +3749,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Pulo Player",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -3888,6 +3887,15 @@
                             "Player",
                             "PlatformerObject"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Animation"
+                          ]
                         }
                       ],
                       "actions": [
@@ -4015,6 +4023,97 @@
               "parameters": []
             }
           ]
+        },
+        {
+          "colorB": 0,
+          "colorG": 124,
+          "colorR": 255,
+          "creationTime": 0,
+          "name": "Colisões",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Spike",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::Gravity"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceAL"
+                  },
+                  "parameters": [
+                    "Player",
+                    "RandomFloatInRange(60, 120)",
+                    "-5000",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "\"Dano\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Arreter"
+                  },
+                  "parameters": [
+                    "Player"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::Gravity"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject",
+                    "=",
+                    "1000"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
         }
       ]
     }
