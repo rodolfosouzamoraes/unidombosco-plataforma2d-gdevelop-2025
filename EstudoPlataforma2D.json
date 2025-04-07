@@ -1488,7 +1488,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.47535850871269386,
+        "zoomFactor": 0.31928945896901695,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -5421,10 +5421,10 @@
             "objectName": "UI_TextoItensColetados"
           },
           {
-            "objectName": "UI_TextoTempo"
+            "objectName": "UI_Tempo"
           },
           {
-            "objectName": "UI_Tempo"
+            "objectName": "UI_TextoTempo"
           },
           {
             "objectName": "UI_Apple"
@@ -5481,73 +5481,6 @@
                 "tempoTotalJogo",
                 "=",
                 "15"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "UI_TextoTempo",
-                "Text",
-                "=",
-                "tempoTotalJogo"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"timer\"",
-                ">=",
-                "1"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "tempoAtualJogo",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"timer\""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "UI_TextoTempo",
-                    "Text",
-                    "=",
-                    "(tempoTotalJogo - tempoAtualJogo)"
-                  ]
-                }
               ]
             }
           ]
@@ -5742,7 +5675,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Movimentações Base",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -5830,7 +5762,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Flip Player",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -5899,7 +5830,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Pulo Player",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
