@@ -1433,6 +1433,14 @@
         "name": "Layer 1_vida_19.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "07-9.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "07-9.png.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1445,6 +1453,16 @@
   "variables": [
     {
       "name": "totalItensColetados",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "tempoTotalJogo",
+      "type": "number",
+      "value": 15
+    },
+    {
+      "name": "tempoAtualJogo",
       "type": "number",
       "value": 0
     }
@@ -1470,7 +1488,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.28905162031349174,
+        "zoomFactor": 0.47535850871269386,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1692,6 +1710,39 @@
           "x": 72,
           "y": 17,
           "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "UI_TextoTempo",
+          "persistentUuid": "e1773a9d-c8bd-4693-a027-fc8bd9661e37",
+          "width": 0,
+          "x": 1747,
+          "y": 22,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 69,
+          "keepRatio": true,
+          "layer": "",
+          "name": "UI_Tempo",
+          "persistentUuid": "fe85f9e3-f077-4d61-8a7b-158f6ab88da4",
+          "width": 69,
+          "x": 1645,
+          "y": 27,
+          "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5253,6 +5304,108 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "UI_TextoTempo",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "DePixelHalbfett.otf",
+          "textAlignment": "left",
+          "characterSize": 50,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "0",
+            "font": "DePixelHalbfett.otf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 50,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "UI_Tempo",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "07-9.png.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -5266,6 +5419,12 @@
           },
           {
             "objectName": "UI_TextoItensColetados"
+          },
+          {
+            "objectName": "UI_TextoTempo"
+          },
+          {
+            "objectName": "UI_Tempo"
           },
           {
             "objectName": "UI_Apple"
@@ -5302,6 +5461,93 @@
                 "Animation",
                 "=",
                 "Player.vida"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "totalItensColetados",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "tempoTotalJogo",
+                "=",
+                "15"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "UI_TextoTempo",
+                "Text",
+                "=",
+                "tempoTotalJogo"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"timer\"",
+                ">=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "tempoAtualJogo",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"timer\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "UI_TextoTempo",
+                    "Text",
+                    "=",
+                    "(tempoTotalJogo - tempoAtualJogo)"
+                  ]
+                }
               ]
             }
           ]
@@ -5487,7 +5733,6 @@
               "colorG": 255,
               "colorR": 0,
               "creationTime": 0,
-              "folded": true,
               "name": "Movimentações",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -5816,7 +6061,6 @@
                       ]
                     },
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -6212,6 +6456,62 @@
                 }
               ],
               "parameters": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 224,
+          "colorG": 16,
+          "colorR": 189,
+          "creationTime": 0,
+          "name": "Matar Player Após Tempo",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "tempoTotalJogo",
+                    "<=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Player",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Level_1\"",
+                    ""
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
