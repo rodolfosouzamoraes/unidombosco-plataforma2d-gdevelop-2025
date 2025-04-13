@@ -1473,6 +1473,110 @@
         "name": "Layer 1_plataform4.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "sprite_031.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprite_031.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "sprite_007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprite_007.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Barro.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Barro.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "GramaTopo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "GramaTopo.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "GramaDireito.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "GramaDireito.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../../../Downloads/GramaEsquerdo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\Downloads\\GramaEsquerdo.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "GramaEsquerdo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "GramaEsquerdo.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "BarroBase.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BarroBase.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "BarroDireito.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BarroDireito.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "BarroEsquerdo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BarroEsquerdo.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "BarroInferiorEsquerdo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BarroInferiorEsquerdo.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "BarroInferiorDireito.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BarroInferiorDireito.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Gray.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gray.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1511,7 +1615,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -1519,8 +1623,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.45985214267363406,
+        "snap": true,
+        "zoomFactor": 0.4448515998886679,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1544,57 +1648,6 @@
           "initialVariables": []
         },
         {
-          "angle": 270,
-          "customSize": true,
-          "depth": 1,
-          "height": 125,
-          "keepRatio": true,
-          "layer": "",
-          "name": "CorpoColisaoChao",
-          "persistentUuid": "5be2f60a-6e16-4782-84c0-7dc5f23b5319",
-          "width": 1193,
-          "x": 1338,
-          "y": 474,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 125,
-          "keepRatio": true,
-          "layer": "",
-          "name": "CorpoColisaoChao",
-          "persistentUuid": "576fca9f-9c9f-485c-8d29-119de7a1a71a",
-          "width": 760,
-          "x": -29,
-          "y": 1012,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 270,
-          "customSize": true,
-          "depth": 1,
-          "height": 125,
-          "keepRatio": true,
-          "layer": "",
-          "name": "CorpoColisaoChao",
-          "persistentUuid": "2096b10a-100d-42e6-b73e-ea47c63a4898",
-          "width": 1193,
-          "x": -613,
-          "y": 479,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
           "angle": 0,
           "customSize": true,
           "depth": 2.666666666666666,
@@ -1604,26 +1657,9 @@
           "name": "Spike",
           "persistentUuid": "acb28e97-18d9-4153-89e0-955f23517b89",
           "width": 40,
-          "x": 667,
-          "y": 973,
+          "x": 672,
+          "y": 952,
           "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 125,
-          "keepRatio": true,
-          "layer": "",
-          "name": "CorpoColisaoChao",
-          "persistentUuid": "108489f9-c30e-42d9-b3ff-06d5794e03d0",
-          "width": 2062,
-          "x": -60,
-          "y": -56,
-          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1638,8 +1674,8 @@
           "name": "Apple",
           "persistentUuid": "fbd02124-96a4-4d7b-b0ec-87f3dc9cb4a5",
           "width": 100,
-          "x": 1538,
-          "y": 902,
+          "x": 1536,
+          "y": 896,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -1656,7 +1692,7 @@
           "width": 0,
           "x": 949,
           "y": 15,
-          "zOrder": 5,
+          "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1673,7 +1709,7 @@
           "width": 150,
           "x": 833,
           "y": -14,
-          "zOrder": 6,
+          "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1689,7 +1725,7 @@
           "persistentUuid": "d55531aa-f7e5-4349-ae52-f82c444c0be0",
           "width": 100,
           "x": 1244,
-          "y": 904,
+          "y": 896,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -1706,7 +1742,7 @@
           "persistentUuid": "10c35f53-b3bf-415a-b68b-96959ed03b61",
           "width": 100,
           "x": 1340,
-          "y": 902,
+          "y": 896,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -1722,8 +1758,8 @@
           "name": "Apple",
           "persistentUuid": "af7845f5-3823-43d9-9055-c373f4bbf860",
           "width": 100,
-          "x": 1436,
-          "y": 902,
+          "x": 1440,
+          "y": 896,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -1741,7 +1777,7 @@
           "width": 200,
           "x": 72,
           "y": 17,
-          "zOrder": 7,
+          "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1757,7 +1793,7 @@
           "width": 0,
           "x": 1747,
           "y": 22,
-          "zOrder": 8,
+          "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1774,7 +1810,7 @@
           "width": 69,
           "x": 1645,
           "y": 27,
-          "zOrder": 9,
+          "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1792,23 +1828,6 @@
           "x": 741,
           "y": 870,
           "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 125,
-          "keepRatio": true,
-          "layer": "",
-          "name": "CorpoColisaoChao",
-          "persistentUuid": "82c2f09e-b39f-4eeb-be0c-39d28607984b",
-          "width": 370,
-          "x": 1245,
-          "y": 1014,
-          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1834,15 +1853,619 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 125,
+          "height": 160,
           "keepRatio": true,
           "layer": "",
-          "name": "CorpoColisaoChao",
-          "persistentUuid": "2642df55-c520-4301-887c-9aed6115fdc2",
-          "width": 1591,
-          "x": 37,
-          "y": 385,
-          "zOrder": 1,
+          "name": "Barro",
+          "persistentUuid": "0d22d770-ad45-4758-859b-e15ff498f40a",
+          "width": 832,
+          "x": -96,
+          "y": 992,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 160,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro",
+          "persistentUuid": "ca1a32e4-c765-4b0c-9abb-bfd6109534f6",
+          "width": 416,
+          "x": 1216,
+          "y": 992,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1200,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro",
+          "persistentUuid": "f237ec8e-f870-4cc2-a287-2234e9c5751a",
+          "width": 160,
+          "x": 1856,
+          "y": -64,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 160,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro",
+          "persistentUuid": "e4d3d1cf-dc11-45df-89c5-398658afa3ff",
+          "width": 1952,
+          "x": -96,
+          "y": -64,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 960,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro",
+          "persistentUuid": "012f7c24-b34e-4903-9725-d5fa0da0a106",
+          "width": 160,
+          "x": -96,
+          "y": 32,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 160,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Barro",
+          "persistentUuid": "179205a8-564d-4dc8-88ea-893df5f83be8",
+          "width": 1568,
+          "x": 64,
+          "y": 384,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GramaTopo",
+          "persistentUuid": "11cca464-b203-418c-95ec-3613b1c172fb",
+          "width": 672,
+          "x": 64,
+          "y": 992,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GramaTopo",
+          "persistentUuid": "2d83c0db-517e-4ab2-9d00-f8d2a50065d3",
+          "width": 416,
+          "x": 1216,
+          "y": 992,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GramaTopo",
+          "persistentUuid": "24ff9764-6e2f-48f1-a90f-5b1901284c76",
+          "width": 1568,
+          "x": 64,
+          "y": 384,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GramaDireito",
+          "persistentUuid": "fa145cee-3597-45fd-9d5c-0e7e3de5ccf2",
+          "width": 0,
+          "x": 704,
+          "y": 992,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GramaDireito",
+          "persistentUuid": "7d2b509d-db17-48f1-ac5a-fc80325b4c86",
+          "width": 0,
+          "x": 1600,
+          "y": 992,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GramaDireito",
+          "persistentUuid": "2ece228a-808b-4a60-8859-149d7d5d1231",
+          "width": 0,
+          "x": 1600,
+          "y": 384,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GramaEsquerdo",
+          "persistentUuid": "6ffaa541-e85a-4b2a-ae78-764d39b6a9cf",
+          "width": 0,
+          "x": 1216,
+          "y": 992,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BarroBase",
+          "persistentUuid": "9ebf28ac-4654-40a9-8799-9912b426a194",
+          "width": 832,
+          "x": -96,
+          "y": 1120,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BarroBase",
+          "persistentUuid": "70448e60-8578-413a-82f1-c65232e60e46",
+          "width": 416,
+          "x": 1216,
+          "y": 1120,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BarroBase",
+          "persistentUuid": "94a1eef8-b98c-4892-90b9-863831e03295",
+          "width": 1568,
+          "x": 64,
+          "y": 512,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BarroBase",
+          "persistentUuid": "6c79eba8-9656-4996-8cc3-b906f858e27f",
+          "width": 1792,
+          "x": 64,
+          "y": 64,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1056,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BarroDireito",
+          "persistentUuid": "44346915-771e-42f0-b78f-28350bfb824e",
+          "width": 32,
+          "x": 1856,
+          "y": 96,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BarroDireito",
+          "persistentUuid": "8d00d8ca-dcdf-4671-8a1d-eb951fa55d79",
+          "width": 32,
+          "x": 1216,
+          "y": 1024,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 448,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BarroEsquerdo",
+          "persistentUuid": "6a6b22f3-61ee-4826-b914-279650f1ad90",
+          "width": 32,
+          "x": 32,
+          "y": 544,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 288,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BarroEsquerdo",
+          "persistentUuid": "2e8efb5c-66c0-46fd-8caa-3c681a4ab26a",
+          "width": 32,
+          "x": 32,
+          "y": 96,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BarroEsquerdo",
+          "persistentUuid": "8f0eaf98-3316-4b7c-818c-4ff1f6631625",
+          "width": 32,
+          "x": 704,
+          "y": 1024,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BarroEsquerdo",
+          "persistentUuid": "487b3c45-e6ea-491c-9954-48b57455808f",
+          "width": 32,
+          "x": 1600,
+          "y": 1024,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BarroEsquerdo",
+          "persistentUuid": "a051dc19-31f4-487f-85cb-a29fa9eae4b1",
+          "width": 32,
+          "x": 1600,
+          "y": 416,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BarroInferiorEsquerdo",
+          "persistentUuid": "122f90ac-baa2-40ef-bf4e-8d8d979dc9d4",
+          "width": 0,
+          "x": 704,
+          "y": 1120,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BarroInferiorEsquerdo",
+          "persistentUuid": "40f7ea2f-4918-437a-8812-fe2048bd7c7f",
+          "width": 0,
+          "x": 1600,
+          "y": 1120,
+          "zOrder": 41,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BarroInferiorEsquerdo",
+          "persistentUuid": "60084022-74df-455f-a7ad-b82320158966",
+          "width": 0,
+          "x": 1600,
+          "y": 512,
+          "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BarroInferiorDireito",
+          "persistentUuid": "f033e29a-f30f-41ba-9899-25ecbc54cee6",
+          "width": 0,
+          "x": 1216,
+          "y": 1120,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 100,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Apple",
+          "persistentUuid": "f3130e48-2c81-4b1e-96ce-d6342a409ca6",
+          "width": 100,
+          "x": 384,
+          "y": 896,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 100,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Apple",
+          "persistentUuid": "e61dcfab-0ddb-4e0b-b2a9-a1d32b377482",
+          "width": 100,
+          "x": 1148,
+          "y": 288,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 100,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Apple",
+          "persistentUuid": "62ce0c0f-59c2-447e-80e9-bfe1235544bf",
+          "width": 100,
+          "x": 476,
+          "y": 896,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 100,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Apple",
+          "persistentUuid": "af89520c-f8e4-4a19-bc65-39739aaf5062",
+          "width": 100,
+          "x": 672,
+          "y": 288,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 100,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Apple",
+          "persistentUuid": "48e54dfc-a830-4f18-ab1f-0cf5463a6a0c",
+          "width": 100,
+          "x": 768,
+          "y": 288,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 100,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Apple",
+          "persistentUuid": "df8d1574-d97a-407f-8a63-912e44813d03",
+          "width": 100,
+          "x": 864,
+          "y": 288,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 100,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Apple",
+          "persistentUuid": "b07f9f96-2a41-46b7-a1ed-959306eb4f3e",
+          "width": 100,
+          "x": 960,
+          "y": 288,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 100,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Apple",
+          "persistentUuid": "fff9f572-ec3c-4dfc-bf19-e218b39c81d3",
+          "width": 100,
+          "x": 1056,
+          "y": 288,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1312,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Fundo",
+          "persistentUuid": "700ad014-9fe7-4f21-a57d-0f42d4cb4201",
+          "width": 2208,
+          "x": -128,
+          "y": -96,
+          "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4109,25 +4732,6 @@
           ]
         },
         {
-          "assetStoreId": "",
-          "height": 32,
-          "name": "CorpoColisaoChao",
-          "texture": "NewTiledSprite",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ]
-        },
-        {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Spike",
@@ -5871,6 +6475,172 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Barro",
+          "texture": "Barro.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "GramaTopo",
+          "texture": "GramaTopo.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "GramaDireito",
+          "texture": "GramaDireito.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "GramaEsquerdo",
+          "texture": "GramaEsquerdo.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "BarroBase",
+          "texture": "BarroBase.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "BarroDireito",
+          "texture": "BarroDireito.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "BarroEsquerdo",
+          "texture": "BarroEsquerdo.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "BarroInferiorEsquerdo",
+          "texture": "BarroInferiorEsquerdo.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "BarroInferiorDireito",
+          "texture": "BarroInferiorDireito.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 64,
+          "name": "Fundo",
+          "texture": "Gray.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 64,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -5898,9 +6668,6 @@
             "objectName": "Spike"
           },
           {
-            "objectName": "CorpoColisaoChao"
-          },
-          {
             "objectName": "UI_Vida"
           },
           {
@@ -5908,6 +6675,36 @@
           },
           {
             "objectName": "PlataformaV_1"
+          },
+          {
+            "objectName": "Barro"
+          },
+          {
+            "objectName": "GramaTopo"
+          },
+          {
+            "objectName": "GramaDireito"
+          },
+          {
+            "objectName": "GramaEsquerdo"
+          },
+          {
+            "objectName": "BarroBase"
+          },
+          {
+            "objectName": "BarroDireito"
+          },
+          {
+            "objectName": "BarroEsquerdo"
+          },
+          {
+            "objectName": "BarroInferiorEsquerdo"
+          },
+          {
+            "objectName": "BarroInferiorDireito"
+          },
+          {
+            "objectName": "Fundo"
           }
         ]
       },
@@ -13834,1285 +14631,6 @@
                 "PlatformBehavior::PlatformerObjectBehavior"
               ],
               "name": "PlatformerCharacter"
-            }
-          ],
-          "sharedPropertyDescriptors": []
-        }
-      ],
-      "eventsBasedObjects": []
-    },
-    {
-      "author": "Gruk",
-      "category": "Movement",
-      "extensionNamespace": "",
-      "fullName": "Timed Back and Forth Movement",
-      "gdevelopVersion": ">=5.5.222",
-      "helpPath": "",
-      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXJlcGVhdCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0xNywxN0g3VjE0TDMsMThMNywyMlYxOUgxOVYxM0gxN003LDdIMTdWMTBMMjEsNkwxNywyVjVINVYxMUg3VjdaIiAvPjwvc3ZnPg==",
-      "name": "TimedBackAndForthMovement",
-      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/repeat.svg",
-      "shortDescription": "This behavior moves objects back and forth for a chosen time or distance, vertically or horizontally.",
-      "version": "1.1.0",
-      "description": [
-        "This behavior moves an object (like an enemy) for a chosen time or distance, then flips it and starts over, moving the object back and forth, vertically or horizontally.",
-        "",
-        "Note: animations must be facing **Right** (for horizontal) or **Down** (for vertical) direction."
-      ],
-      "origin": {
-        "identifier": "TimedBackAndForthMovement",
-        "name": "gdevelop-extension-store"
-      },
-      "tags": [
-        "enemy",
-        "movement",
-        "back",
-        "forth",
-        "up",
-        "down",
-        "left",
-        "right"
-      ],
-      "authorIds": [
-        "9hfK9vapfgUot6y3ARuuRkPBWPJ2"
-      ],
-      "dependencies": [],
-      "globalVariables": [],
-      "sceneVariables": [],
-      "eventsFunctions": [],
-      "eventsBasedBehaviors": [
-        {
-          "description": "Move an object (e.g. enemy) for a chosen time or distance, then flip it and start over. \nNote: animations should be facing LEFT.",
-          "fullName": "Timed Back and Forth Movement",
-          "name": "TimedBackAndForthMirroredMovement",
-          "objectType": "",
-          "eventsFunctions": [
-            {
-              "fullName": "",
-              "functionType": "Action",
-              "name": "doStepPreEvents",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "vertical mode"
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BooleanVariable"
-                      },
-                      "parameters": [
-                        "Vertical",
-                        "True",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Comment",
-                      "color": {
-                        "b": 109,
-                        "g": 230,
-                        "r": 255,
-                        "textB": 0,
-                        "textG": 0,
-                        "textR": 0
-                      },
-                      "comment": "initialize"
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "NumberVariable"
-                          },
-                          "parameters": [
-                            "StartPosition",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ResetObjectTimer"
-                          },
-                          "parameters": [
-                            "Object",
-                            "\"BacknForth_timeout\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetNumberVariable"
-                          },
-                          "parameters": [
-                            "StartPosition",
-                            "=",
-                            "round(Object.Y())"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "colorB": 228,
-                      "colorG": 176,
-                      "colorR": 74,
-                      "creationTime": 0,
-                      "name": "Flips",
-                      "source": "",
-                      "type": "BuiltinCommonInstructions::Group",
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Comment",
-                          "color": {
-                            "b": 109,
-                            "g": 230,
-                            "r": 255,
-                            "textB": 0,
-                            "textG": 0,
-                            "textR": 0
-                          },
-                          "comment": "distance has been reached, flip it"
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "PosY"
-                              },
-                              "parameters": [
-                                "Object",
-                                "<",
-                                "StartPosition - Distance"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "FlippableCapability::FlippableBehavior::FlippedY"
-                              },
-                              "parameters": [
-                                "Object",
-                                "Flippable"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "SetNumberVariable"
-                              },
-                              "parameters": [
-                                "StartPosition",
-                                "=",
-                                "round(Object.Y())"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ResetObjectTimer"
-                              },
-                              "parameters": [
-                                "Object",
-                                "\"BacknForth_timeout\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "FlippableCapability::FlippableBehavior::FlipY"
-                              },
-                              "parameters": [
-                                "Object",
-                                "Flippable",
-                                "no"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "PosY"
-                              },
-                              "parameters": [
-                                "Object",
-                                ">",
-                                "StartPosition + Distance"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "inverted": true,
-                                "value": "FlippableCapability::FlippableBehavior::FlippedY"
-                              },
-                              "parameters": [
-                                "Object",
-                                "Flippable"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "SetNumberVariable"
-                              },
-                              "parameters": [
-                                "StartPosition",
-                                "=",
-                                "round(Object.Y())"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ResetObjectTimer"
-                              },
-                              "parameters": [
-                                "Object",
-                                "\"BacknForth_timeout\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "FlippableCapability::FlippableBehavior::FlipY"
-                              },
-                              "parameters": [
-                                "Object",
-                                "Flippable",
-                                "yes"
-                              ]
-                            }
-                          ]
-                        }
-                      ],
-                      "parameters": []
-                    },
-                    {
-                      "colorB": 228,
-                      "colorG": 176,
-                      "colorR": 74,
-                      "creationTime": 0,
-                      "name": "Timeout",
-                      "source": "",
-                      "type": "BuiltinCommonInstructions::Group",
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Comment",
-                          "color": {
-                            "b": 109,
-                            "g": 230,
-                            "r": 255,
-                            "textB": 0,
-                            "textG": 0,
-                            "textR": 0
-                          },
-                          "comment": "max time has been reached, flip it"
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "NumberVariable"
-                              },
-                              "parameters": [
-                                "Timecheck",
-                                "!=",
-                                "Object.ObjectTimerElapsedTime(\"BacknForth_timeout\")"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "NumberVariable"
-                              },
-                              "parameters": [
-                                "LastPosition",
-                                "=",
-                                "round(Object.Y())"
-                              ]
-                            }
-                          ],
-                          "actions": [],
-                          "events": [
-                            {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "value": "ObjectTimer"
-                                  },
-                                  "parameters": [
-                                    "Object",
-                                    "\"BacknForth_timeout\"",
-                                    "Timeout"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "FlippableCapability::FlippableBehavior::FlippedY"
-                                  },
-                                  "parameters": [
-                                    "Object",
-                                    "Flippable"
-                                  ]
-                                }
-                              ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "SetNumberVariable"
-                                  },
-                                  "parameters": [
-                                    "StartPosition",
-                                    "=",
-                                    "round(Object.Y())"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "ResetObjectTimer"
-                                  },
-                                  "parameters": [
-                                    "Object",
-                                    "\"BacknForth_timeout\""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "FlippableCapability::FlippableBehavior::FlipY"
-                                  },
-                                  "parameters": [
-                                    "Object",
-                                    "Flippable",
-                                    "no"
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "value": "ObjectTimer"
-                                  },
-                                  "parameters": [
-                                    "Object",
-                                    "\"BacknForth_timeout\"",
-                                    "Timeout"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "inverted": true,
-                                    "value": "FlippableCapability::FlippableBehavior::FlippedY"
-                                  },
-                                  "parameters": [
-                                    "Object",
-                                    "Flippable"
-                                  ]
-                                }
-                              ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "SetNumberVariable"
-                                  },
-                                  "parameters": [
-                                    "StartPosition",
-                                    "=",
-                                    "round(Object.Y())"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "ResetObjectTimer"
-                                  },
-                                  "parameters": [
-                                    "Object",
-                                    "\"BacknForth_timeout\""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "FlippableCapability::FlippableBehavior::FlipY"
-                                  },
-                                  "parameters": [
-                                    "Object",
-                                    "Flippable",
-                                    "yes"
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ],
-                      "parameters": []
-                    },
-                    {
-                      "colorB": 228,
-                      "colorG": 176,
-                      "colorR": 74,
-                      "creationTime": 0,
-                      "name": "Movement",
-                      "source": "",
-                      "type": "BuiltinCommonInstructions::Group",
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "inverted": true,
-                                "value": "FlippableCapability::FlippableBehavior::FlippedY"
-                              },
-                              "parameters": [
-                                "Object",
-                                "Flippable"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "AddForceXY"
-                              },
-                              "parameters": [
-                                "Object",
-                                "0",
-                                "Speed",
-                                ""
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "FlippableCapability::FlippableBehavior::FlippedY"
-                              },
-                              "parameters": [
-                                "Object",
-                                "Flippable"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "AddForceXY"
-                              },
-                              "parameters": [
-                                "Object",
-                                "0",
-                                "- \nSpeed",
-                                ""
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "SetNumberVariable"
-                              },
-                              "parameters": [
-                                "LastPosition",
-                                "=",
-                                "round(Object.Y())"
-                              ]
-                            }
-                          ]
-                        }
-                      ],
-                      "parameters": []
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "horizontal mode"
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "BooleanVariable"
-                      },
-                      "parameters": [
-                        "Vertical",
-                        "True",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Comment",
-                      "color": {
-                        "b": 109,
-                        "g": 230,
-                        "r": 255,
-                        "textB": 0,
-                        "textG": 0,
-                        "textR": 0
-                      },
-                      "comment": "initialize"
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "NumberVariable"
-                          },
-                          "parameters": [
-                            "StartPosition",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ResetObjectTimer"
-                          },
-                          "parameters": [
-                            "Object",
-                            "\"BacknForth_timeout\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetNumberVariable"
-                          },
-                          "parameters": [
-                            "StartPosition",
-                            "=",
-                            "round(Object.X())"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "colorB": 228,
-                      "colorG": 176,
-                      "colorR": 74,
-                      "creationTime": 0,
-                      "name": "Flips",
-                      "source": "",
-                      "type": "BuiltinCommonInstructions::Group",
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Comment",
-                          "color": {
-                            "b": 109,
-                            "g": 230,
-                            "r": 255,
-                            "textB": 0,
-                            "textG": 0,
-                            "textR": 0
-                          },
-                          "comment": "distance has been reached, flip it"
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "PosX"
-                              },
-                              "parameters": [
-                                "Object",
-                                ">",
-                                "StartPosition + Distance"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "inverted": true,
-                                "value": "FlippableCapability::FlippableBehavior::FlippedX"
-                              },
-                              "parameters": [
-                                "Object",
-                                "Flippable"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "SetNumberVariable"
-                              },
-                              "parameters": [
-                                "StartPosition",
-                                "=",
-                                "round(Object.X())"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ResetObjectTimer"
-                              },
-                              "parameters": [
-                                "Object",
-                                "\"BacknForth_timeout\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "FlippableCapability::FlippableBehavior::FlipX"
-                              },
-                              "parameters": [
-                                "Object",
-                                "Flippable",
-                                "yes"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "PosX"
-                              },
-                              "parameters": [
-                                "Object",
-                                "<",
-                                "StartPosition - Distance"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "FlippableCapability::FlippableBehavior::FlippedX"
-                              },
-                              "parameters": [
-                                "Object",
-                                "Flippable"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "SetNumberVariable"
-                              },
-                              "parameters": [
-                                "StartPosition",
-                                "=",
-                                "round(Object.X())"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ResetObjectTimer"
-                              },
-                              "parameters": [
-                                "Object",
-                                "\"BacknForth_timeout\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "FlippableCapability::FlippableBehavior::FlipX"
-                              },
-                              "parameters": [
-                                "Object",
-                                "Flippable",
-                                "no"
-                              ]
-                            }
-                          ]
-                        }
-                      ],
-                      "parameters": []
-                    },
-                    {
-                      "colorB": 228,
-                      "colorG": 176,
-                      "colorR": 74,
-                      "creationTime": 0,
-                      "name": "Timeout",
-                      "source": "",
-                      "type": "BuiltinCommonInstructions::Group",
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Comment",
-                          "color": {
-                            "b": 109,
-                            "g": 230,
-                            "r": 255,
-                            "textB": 0,
-                            "textG": 0,
-                            "textR": 0
-                          },
-                          "comment": "max time has been reached, flip it"
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "NumberVariable"
-                              },
-                              "parameters": [
-                                "Timecheck",
-                                "!=",
-                                "Object.ObjectTimerElapsedTime(\"BacknForth_timeout\")"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "NumberVariable"
-                              },
-                              "parameters": [
-                                "LastPosition",
-                                "=",
-                                "round(Object.X())"
-                              ]
-                            }
-                          ],
-                          "actions": [],
-                          "events": [
-                            {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "value": "ObjectTimer"
-                                  },
-                                  "parameters": [
-                                    "Object",
-                                    "\"BacknForth_timeout\"",
-                                    "Timeout"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "FlippableCapability::FlippableBehavior::FlippedX"
-                                  },
-                                  "parameters": [
-                                    "Object",
-                                    "Flippable"
-                                  ]
-                                }
-                              ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "FlippableCapability::FlippableBehavior::FlipX"
-                                  },
-                                  "parameters": [
-                                    "Object",
-                                    "Flippable",
-                                    "no"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "SetNumberVariable"
-                                  },
-                                  "parameters": [
-                                    "StartPosition",
-                                    "=",
-                                    "round(Object.X())"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "ResetObjectTimer"
-                                  },
-                                  "parameters": [
-                                    "Object",
-                                    "\"BacknForth_timeout\""
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "value": "ObjectTimer"
-                                  },
-                                  "parameters": [
-                                    "Object",
-                                    "\"BacknForth_timeout\"",
-                                    "Timeout"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "inverted": true,
-                                    "value": "FlippableCapability::FlippableBehavior::FlippedX"
-                                  },
-                                  "parameters": [
-                                    "Object",
-                                    "Flippable"
-                                  ]
-                                }
-                              ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "FlippableCapability::FlippableBehavior::FlipX"
-                                  },
-                                  "parameters": [
-                                    "Object",
-                                    "Flippable",
-                                    "yes"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "SetNumberVariable"
-                                  },
-                                  "parameters": [
-                                    "StartPosition",
-                                    "=",
-                                    "round(Object.X())"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "ResetObjectTimer"
-                                  },
-                                  "parameters": [
-                                    "Object",
-                                    "\"BacknForth_timeout\""
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ],
-                      "parameters": []
-                    },
-                    {
-                      "colorB": 228,
-                      "colorG": 176,
-                      "colorR": 74,
-                      "creationTime": 0,
-                      "name": "Movement",
-                      "source": "",
-                      "type": "BuiltinCommonInstructions::Group",
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "inverted": true,
-                                "value": "FlippableCapability::FlippableBehavior::FlippedX"
-                              },
-                              "parameters": [
-                                "Object",
-                                "Flippable"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "AddForceXY"
-                              },
-                              "parameters": [
-                                "Object",
-                                "Speed",
-                                "0",
-                                ""
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "FlippableCapability::FlippableBehavior::FlippedX"
-                              },
-                              "parameters": [
-                                "Object",
-                                "Flippable"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "AddForceXY"
-                              },
-                              "parameters": [
-                                "Object",
-                                "- \nSpeed",
-                                "0",
-                                ""
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "SetNumberVariable"
-                              },
-                              "parameters": [
-                                "LastPosition",
-                                "=",
-                                "round(Object.X())"
-                              ]
-                            }
-                          ]
-                        }
-                      ],
-                      "parameters": []
-                    }
-                  ]
-                },
-                {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "name": "TimeCheck",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Comment",
-                      "color": {
-                        "b": 109,
-                        "g": 230,
-                        "r": 255,
-                        "textB": 0,
-                        "textG": 0,
-                        "textR": 0
-                      },
-                      "comment": "store current elapsed time (to make sure time has passed)"
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "SetNumberVariable"
-                          },
-                          "parameters": [
-                            "Timecheck",
-                            "=",
-                            "Object.ObjectTimerElapsedTime(\"BacknForth_timeout\")"
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "parameters": []
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            }
-          ],
-          "propertyDescriptors": [
-            {
-              "value": "",
-              "type": "Behavior",
-              "label": "Flippable capability",
-              "description": "",
-              "group": "",
-              "extraInformation": [
-                "FlippableCapability::FlippableBehavior"
-              ],
-              "name": "Flippable"
-            },
-            {
-              "value": "false",
-              "type": "Boolean",
-              "label": "Move the object vertically (instead of horizontally)",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
-              "name": "Vertical"
-            },
-            {
-              "value": "100",
-              "type": "Number",
-              "label": "Moving speed (in pixel/s)",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
-              "name": "Speed"
-            },
-            {
-              "value": "200",
-              "type": "Number",
-              "label": "Moving distance (in pixels)",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
-              "name": "Distance"
-            },
-            {
-              "value": "2",
-              "type": "Number",
-              "label": "Moving maximum time (in seconds)",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
-              "name": "Timeout"
-            },
-            {
-              "value": "0",
-              "type": "Number",
-              "label": "Distance start point",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
-              "hidden": true,
-              "name": "StartPosition"
-            },
-            {
-              "value": "0",
-              "type": "Number",
-              "label": "position of the sprite at the previous frame",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
-              "hidden": true,
-              "name": "LastPosition"
-            },
-            {
-              "value": "0",
-              "type": "Number",
-              "label": "check that time has elapsed",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
-              "hidden": true,
-              "name": "Timecheck"
-            }
-          ],
-          "sharedPropertyDescriptors": []
-        }
-      ],
-      "eventsBasedObjects": []
-    },
-    {
-      "author": "@4ian",
-      "category": "Movement",
-      "extensionNamespace": "",
-      "fullName": "Linear Movement",
-      "gdevelopVersion": ">=5.5.222",
-      "helpPath": "",
-      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXJheS1zdGFydC1hcnJvdyIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0yMywxMkwxOSwxNlYxM0g2LjgzQzYuNDIsMTQuMTcgNS4zMSwxNSA0LDE1QTMsMyAwIDAsMSAxLDEyQTMsMyAwIDAsMSA0LDlDNS4zMSw5IDYuNDIsOS44MyA2LjgzLDExSDE5VjhMMjMsMTJaIiAvPjwvc3ZnPg==",
-      "name": "LinearMovement",
-      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/ray-start-arrow.svg",
-      "shortDescription": "Move objects on a straight line.",
-      "version": "0.1.0",
-      "description": [
-        "Move objects on a straight line or according to their angle.",
-        "",
-        "It can be used for simple enemies or bullets."
-      ],
-      "origin": {
-        "identifier": "LinearMovement",
-        "name": "gdevelop-extension-store"
-      },
-      "tags": [
-        "line",
-        "movement",
-        "linear"
-      ],
-      "authorIds": [
-        "wWP8BSlAW0UP4NeaHa2LcmmDzmH2",
-        "dt0tRnf2kHWJnjkrpnzTzNj9Yc63"
-      ],
-      "dependencies": [],
-      "globalVariables": [],
-      "sceneVariables": [],
-      "eventsFunctions": [],
-      "eventsBasedBehaviors": [
-        {
-          "description": "Move objects on a straight line.",
-          "fullName": "Linear movement",
-          "name": "LinearMovement",
-          "objectType": "",
-          "eventsFunctions": [
-            {
-              "fullName": "",
-              "functionType": "Action",
-              "name": "doStepPreEvents",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AddForceXY"
-                      },
-                      "parameters": [
-                        "Object",
-                        "SpeedX",
-                        "SpeedY",
-                        ""
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "LinearMovement::LinearMovement",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            }
-          ],
-          "propertyDescriptors": [
-            {
-              "value": "0",
-              "type": "Number",
-              "unit": "PixelSpeed",
-              "label": "Speed on X axis",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
-              "name": "SpeedX"
-            },
-            {
-              "value": "0",
-              "type": "Number",
-              "unit": "PixelSpeed",
-              "label": "Speed on Y axis",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
-              "name": "SpeedY"
-            }
-          ],
-          "sharedPropertyDescriptors": []
-        },
-        {
-          "description": "Move objects ahead according to their angle.",
-          "fullName": "Linear movement by angle",
-          "name": "LinearMovementByAngle",
-          "objectType": "",
-          "eventsFunctions": [
-            {
-              "fullName": "",
-              "functionType": "Action",
-              "name": "doStepPreEvents",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AddForceAL"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Object.Angle()",
-                        "Speed",
-                        ""
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "LinearMovement::LinearMovementByAngle",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            }
-          ],
-          "propertyDescriptors": [
-            {
-              "value": "200",
-              "type": "Number",
-              "unit": "PixelSpeed",
-              "label": "Speed",
-              "description": "",
-              "group": "",
-              "extraInformation": [],
-              "name": "Speed"
             }
           ],
           "sharedPropertyDescriptors": []
