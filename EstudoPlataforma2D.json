@@ -1829,6 +1829,23 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 125,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CorpoColisaoChao",
+          "persistentUuid": "2642df55-c520-4301-887c-9aed6115fdc2",
+          "width": 1591,
+          "x": 37,
+          "y": 385,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -5960,6 +5977,7 @@
               "colorG": 113,
               "colorR": 191,
               "creationTime": 0,
+              "folded": true,
               "name": "Horizontais",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
