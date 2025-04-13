@@ -1520,7 +1520,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5079575118131743,
+        "zoomFactor": 0.45985214267363406,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -5947,126 +5947,18 @@
           "target": "PlayerEventos"
         },
         {
-          "colorB": 42,
-          "colorG": 87,
-          "colorR": 139,
+          "colorB": 139,
+          "colorG": 42,
+          "colorR": 134,
           "creationTime": 0,
           "name": "Plataformas Móveis",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "colorB": 89,
-              "colorG": 137,
-              "colorR": 192,
-              "creationTime": 0,
-              "name": "Verticais",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "PlataformaV_1",
-                        "sentidoForca",
-                        "=",
-                        "1"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AddForceXY"
-                      },
-                      "parameters": [
-                        "PlataformaV_1",
-                        "0",
-                        "100",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "3"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "PlataformaV_1",
-                        "sentidoForca",
-                        "=",
-                        "2"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "PlataformaV_1",
-                        "sentidoForca",
-                        "=",
-                        "2"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AddForceXY"
-                      },
-                      "parameters": [
-                        "PlataformaV_1",
-                        "0",
-                        "-100",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "3"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "PlataformaV_1",
-                        "sentidoForca",
-                        "=",
-                        "1"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": []
-            },
-            {
-              "colorB": 89,
-              "colorG": 137,
-              "colorR": 192,
+              "colorB": 196,
+              "colorG": 113,
+              "colorR": 191,
               "creationTime": 0,
               "name": "Horizontais",
               "source": "",
@@ -6161,6 +6053,114 @@
                       },
                       "parameters": [
                         "PlataformaH_1",
+                        "sentidoForca",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 196,
+              "colorG": 113,
+              "colorR": 191,
+              "creationTime": 0,
+              "name": "Verticais",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "PlataformaV_1",
+                        "sentidoForca",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "PlataformaV_1",
+                        "0",
+                        "100",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "PlataformaV_1",
+                        "sentidoForca",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "PlataformaV_1",
+                        "sentidoForca",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "PlataformaV_1",
+                        "0",
+                        "-100",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "PlataformaV_1",
                         "sentidoForca",
                         "=",
                         "1"
