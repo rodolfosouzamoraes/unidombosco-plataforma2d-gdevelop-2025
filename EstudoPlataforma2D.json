@@ -1475,22 +1475,6 @@
         "userAdded": false
       },
       {
-        "file": "sprite_031.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sprite_031.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "sprite_007.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sprite_007.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "Barro.png",
         "kind": "image",
         "metadata": "",
@@ -1511,14 +1495,6 @@
         "kind": "image",
         "metadata": "",
         "name": "GramaDireito.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "../../../../Downloads/GramaEsquerdo.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "..\\..\\..\\..\\Downloads\\GramaEsquerdo.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -1563,6 +1539,14 @@
         "userAdded": false
       },
       {
+        "file": "../../Plataforma-20250414T222545Z-001/Plataforma/TiledSprite Terreno e Fundo/BarroInferiorDireito.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Plataforma-20250414T222545Z-001\\Plataforma\\TiledSprite Terreno e Fundo\\BarroInferiorDireito.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
         "file": "BarroInferiorDireito.png",
         "kind": "image",
         "metadata": "",
@@ -1575,6 +1559,22 @@
         "kind": "image",
         "metadata": "",
         "name": "Gray.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
         "smoothed": false,
         "userAdded": false
       }
@@ -1624,7 +1624,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.4448515998886679,
+        "zoomFactor": 0.2796226521839392,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1657,7 +1657,7 @@
           "name": "Spike",
           "persistentUuid": "acb28e97-18d9-4153-89e0-955f23517b89",
           "width": 40,
-          "x": 672,
+          "x": 664,
           "y": 952,
           "zOrder": 3,
           "numberProperties": [],
@@ -1692,7 +1692,7 @@
           "width": 0,
           "x": 949,
           "y": 15,
-          "zOrder": 31,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1709,7 +1709,7 @@
           "width": 150,
           "x": 833,
           "y": -14,
-          "zOrder": 31,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1724,8 +1724,8 @@
           "name": "Apple",
           "persistentUuid": "d55531aa-f7e5-4349-ae52-f82c444c0be0",
           "width": 100,
-          "x": 1244,
-          "y": 896,
+          "x": 448,
+          "y": 892,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -1758,7 +1758,7 @@
           "name": "Apple",
           "persistentUuid": "af7845f5-3823-43d9-9055-c373f4bbf860",
           "width": 100,
-          "x": 1440,
+          "x": 1436,
           "y": 896,
           "zOrder": 4,
           "numberProperties": [],
@@ -1777,7 +1777,7 @@
           "width": 200,
           "x": 72,
           "y": 17,
-          "zOrder": 30,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1793,7 +1793,7 @@
           "width": 0,
           "x": 1747,
           "y": 22,
-          "zOrder": 32,
+          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1810,7 +1810,7 @@
           "width": 69,
           "x": 1645,
           "y": 27,
-          "zOrder": 32,
+          "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1823,10 +1823,10 @@
           "keepRatio": true,
           "layer": "",
           "name": "PlataformaH_1",
-          "persistentUuid": "709bc788-ac65-43d5-8def-9350cd62ce41",
+          "persistentUuid": "a2d91731-d4bc-4297-8060-93291d85dce9",
           "width": 150,
-          "x": 741,
-          "y": 870,
+          "x": 746,
+          "y": 928,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -1840,10 +1840,10 @@
           "keepRatio": true,
           "layer": "",
           "name": "PlataformaV_1",
-          "persistentUuid": "01793ad4-d68f-4829-b550-c14bf83284fb",
+          "persistentUuid": "a4b7ed6e-dc97-46c9-9e8b-6332ed1220b2",
           "width": 150,
-          "x": 1676,
-          "y": 514,
+          "x": 1664,
+          "y": 576,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -1855,9 +1855,9 @@
           "depth": 1,
           "height": 160,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Tilemap",
           "name": "Barro",
-          "persistentUuid": "0d22d770-ad45-4758-859b-e15ff498f40a",
+          "persistentUuid": "a5d07dc3-9371-401d-ac84-6afb7c2e3268",
           "width": 832,
           "x": -96,
           "y": 992,
@@ -1872,11 +1872,11 @@
           "depth": 1,
           "height": 160,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Tilemap",
           "name": "Barro",
-          "persistentUuid": "ca1a32e4-c765-4b0c-9abb-bfd6109534f6",
-          "width": 416,
-          "x": 1216,
+          "persistentUuid": "81f5f907-2395-45d9-9410-2b32cd54bd53",
+          "width": 384,
+          "x": 1248,
           "y": 992,
           "zOrder": 13,
           "numberProperties": [],
@@ -1887,11 +1887,11 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 1200,
+          "height": 1216,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Tilemap",
           "name": "Barro",
-          "persistentUuid": "f237ec8e-f870-4cc2-a287-2234e9c5751a",
+          "persistentUuid": "1ba48c0e-60dc-4563-8579-b08ccf7de0c3",
           "width": 160,
           "x": 1856,
           "y": -64,
@@ -1906,13 +1906,13 @@
           "depth": 1,
           "height": 160,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Tilemap",
           "name": "Barro",
-          "persistentUuid": "e4d3d1cf-dc11-45df-89c5-398658afa3ff",
+          "persistentUuid": "13dff946-a49e-4ec7-9db8-ca287e92afcc",
           "width": 1952,
           "x": -96,
           "y": -64,
-          "zOrder": 0,
+          "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1921,15 +1921,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 960,
+          "height": 896,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Tilemap",
           "name": "Barro",
-          "persistentUuid": "012f7c24-b34e-4903-9725-d5fa0da0a106",
+          "persistentUuid": "ec1ad682-e0e6-4adc-b2b0-c09f802fb756",
           "width": 160,
           "x": -96,
-          "y": 32,
-          "zOrder": 17,
+          "y": 96,
+          "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1940,12 +1940,29 @@
           "depth": 1,
           "height": 160,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Tilemap",
           "name": "Barro",
-          "persistentUuid": "179205a8-564d-4dc8-88ea-893df5f83be8",
+          "persistentUuid": "ca5f8f2c-be90-4190-a513-21f2c93b6296",
           "width": 1568,
           "x": 64,
-          "y": 384,
+          "y": 448,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "Tilemap",
+          "name": "GramaTopo",
+          "persistentUuid": "4094203e-52a9-44e1-ba3b-d5cedc85a105",
+          "width": 672,
+          "x": 64,
+          "y": 992,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -1957,11 +1974,11 @@
           "depth": 1,
           "height": 32,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Tilemap",
           "name": "GramaTopo",
-          "persistentUuid": "11cca464-b203-418c-95ec-3613b1c172fb",
-          "width": 672,
-          "x": 64,
+          "persistentUuid": "369252de-f179-43ed-8516-ae57f21fd824",
+          "width": 384,
+          "x": 1248,
           "y": 992,
           "zOrder": 19,
           "numberProperties": [],
@@ -1974,12 +1991,12 @@
           "depth": 1,
           "height": 32,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Tilemap",
           "name": "GramaTopo",
-          "persistentUuid": "2d83c0db-517e-4ab2-9d00-f8d2a50065d3",
-          "width": 416,
-          "x": 1216,
-          "y": 992,
+          "persistentUuid": "633f548d-b6b7-4b12-a0e1-592122444ae2",
+          "width": 1568,
+          "x": 64,
+          "y": 448,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -1987,16 +2004,15 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
-          "layer": "",
-          "name": "GramaTopo",
-          "persistentUuid": "24ff9764-6e2f-48f1-a90f-5b1901284c76",
-          "width": 1568,
-          "x": 64,
-          "y": 384,
+          "layer": "Tilemap",
+          "name": "GramaDireito",
+          "persistentUuid": "da603b0b-344b-4cee-b642-32cb2a014bcf",
+          "width": 0,
+          "x": 704,
+          "y": 992,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -2007,12 +2023,12 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Tilemap",
           "name": "GramaDireito",
-          "persistentUuid": "fa145cee-3597-45fd-9d5c-0e7e3de5ccf2",
+          "persistentUuid": "778f670f-48ed-4b96-b70a-b05eb07c94d4",
           "width": 0,
-          "x": 704,
-          "y": 992,
+          "x": 1600,
+          "y": 448,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -2023,9 +2039,9 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Tilemap",
           "name": "GramaDireito",
-          "persistentUuid": "7d2b509d-db17-48f1-ac5a-fc80325b4c86",
+          "persistentUuid": "2d5f52ec-e93e-4c7a-b845-4c49c3b28eba",
           "width": 0,
           "x": 1600,
           "y": 992,
@@ -2039,12 +2055,12 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
-          "name": "GramaDireito",
-          "persistentUuid": "2ece228a-808b-4a60-8859-149d7d5d1231",
+          "layer": "Tilemap",
+          "name": "GramaEsquerdo",
+          "persistentUuid": "2954a610-479a-4da5-a7d0-66fbe27392bb",
           "width": 0,
-          "x": 1600,
-          "y": 384,
+          "x": 1248,
+          "y": 992,
           "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
@@ -2052,15 +2068,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
           "keepRatio": true,
-          "layer": "",
-          "name": "GramaEsquerdo",
-          "persistentUuid": "6ffaa541-e85a-4b2a-ae78-764d39b6a9cf",
-          "width": 0,
-          "x": 1216,
-          "y": 992,
+          "layer": "Tilemap",
+          "name": "BarroBase",
+          "persistentUuid": "23e2c5ba-355e-4e0b-906b-d210fcac3766",
+          "width": 1568,
+          "x": 64,
+          "y": 576,
           "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
@@ -2072,12 +2089,12 @@
           "depth": 1,
           "height": 32,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Tilemap",
           "name": "BarroBase",
-          "persistentUuid": "9ebf28ac-4654-40a9-8799-9912b426a194",
-          "width": 832,
-          "x": -96,
-          "y": 1120,
+          "persistentUuid": "65c9e26f-f414-46eb-aff1-f3625f70a531",
+          "width": 1792,
+          "x": 64,
+          "y": 64,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -2089,11 +2106,11 @@
           "depth": 1,
           "height": 32,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Tilemap",
           "name": "BarroBase",
-          "persistentUuid": "70448e60-8578-413a-82f1-c65232e60e46",
-          "width": 416,
-          "x": 1216,
+          "persistentUuid": "a8c2aad8-33b9-44d4-b1f9-9b5e13746487",
+          "width": 384,
+          "x": 1248,
           "y": 1120,
           "zOrder": 27,
           "numberProperties": [],
@@ -2106,30 +2123,13 @@
           "depth": 1,
           "height": 32,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Tilemap",
           "name": "BarroBase",
-          "persistentUuid": "94a1eef8-b98c-4892-90b9-863831e03295",
-          "width": 1568,
-          "x": 64,
-          "y": 512,
+          "persistentUuid": "588b7b38-1a51-4c05-af0c-1516596a57f4",
+          "width": 832,
+          "x": -96,
+          "y": 1120,
           "zOrder": 28,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "BarroBase",
-          "persistentUuid": "6c79eba8-9656-4996-8cc3-b906f858e27f",
-          "width": 1792,
-          "x": 64,
-          "y": 64,
-          "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2140,12 +2140,80 @@
           "depth": 1,
           "height": 1056,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Tilemap",
           "name": "BarroDireito",
-          "persistentUuid": "44346915-771e-42f0-b78f-28350bfb824e",
+          "persistentUuid": "6b4f3ab3-d2c8-4848-9356-9e3f0453378c",
           "width": 32,
           "x": 1856,
           "y": 96,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "Tilemap",
+          "name": "BarroDireito",
+          "persistentUuid": "f15b4003-0a64-485e-9551-a9f98b069f86",
+          "width": 32,
+          "x": 1248,
+          "y": 1024,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "Tilemap",
+          "name": "BarroEsquerdo",
+          "persistentUuid": "cf506dc5-8938-49d1-86db-c2fdba2a5f30",
+          "width": 32,
+          "x": 704,
+          "y": 1024,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "Tilemap",
+          "name": "BarroEsquerdo",
+          "persistentUuid": "fcf67ca9-f46f-404a-b009-43a02d337451",
+          "width": 32,
+          "x": 1600,
+          "y": 1024,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "Tilemap",
+          "name": "BarroEsquerdo",
+          "persistentUuid": "8aabc505-58db-46dc-bbe8-77a7da5af9b5",
+          "width": 32,
+          "x": 1600,
+          "y": 480,
           "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
@@ -2155,14 +2223,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 128,
+          "height": 352,
           "keepRatio": true,
-          "layer": "",
-          "name": "BarroDireito",
-          "persistentUuid": "8d00d8ca-dcdf-4671-8a1d-eb951fa55d79",
+          "layer": "Tilemap",
+          "name": "BarroEsquerdo",
+          "persistentUuid": "fb88a0d7-36a1-40f2-9ce1-b166eb946938",
           "width": 32,
-          "x": 1216,
-          "y": 1024,
+          "x": 32,
+          "y": 96,
           "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
@@ -2172,14 +2240,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 448,
+          "height": 384,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Tilemap",
           "name": "BarroEsquerdo",
-          "persistentUuid": "6a6b22f3-61ee-4826-b914-279650f1ad90",
+          "persistentUuid": "ee392818-664c-4c65-9736-6d4779b6c816",
           "width": 32,
           "x": 32,
-          "y": 544,
+          "y": 608,
           "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
@@ -2187,16 +2255,15 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 288,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
-          "layer": "",
-          "name": "BarroEsquerdo",
-          "persistentUuid": "2e8efb5c-66c0-46fd-8caa-3c681a4ab26a",
-          "width": 32,
-          "x": 32,
-          "y": 96,
+          "layer": "Tilemap",
+          "name": "BarroInferiorEsquerdo",
+          "persistentUuid": "a339e270-6d64-4d50-a723-1a8c5fd979cf",
+          "width": 0,
+          "x": 1600,
+          "y": 576,
           "zOrder": 36,
           "numberProperties": [],
           "stringProperties": [],
@@ -2204,16 +2271,15 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 128,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
-          "layer": "",
-          "name": "BarroEsquerdo",
-          "persistentUuid": "8f0eaf98-3316-4b7c-818c-4ff1f6631625",
-          "width": 32,
+          "layer": "Tilemap",
+          "name": "BarroInferiorEsquerdo",
+          "persistentUuid": "e812fd3d-804d-4f38-9ff7-ffde65a4b21e",
+          "width": 0,
           "x": 704,
-          "y": 1024,
+          "y": 1120,
           "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
@@ -2221,16 +2287,15 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 128,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
-          "layer": "",
-          "name": "BarroEsquerdo",
-          "persistentUuid": "487b3c45-e6ea-491c-9954-48b57455808f",
-          "width": 32,
+          "layer": "Tilemap",
+          "name": "BarroInferiorEsquerdo",
+          "persistentUuid": "48313a76-3492-48d4-87a7-0ef4bfdf9467",
+          "width": 0,
           "x": 1600,
-          "y": 1024,
+          "y": 1120,
           "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
@@ -2238,16 +2303,15 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 128,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
-          "layer": "",
-          "name": "BarroEsquerdo",
-          "persistentUuid": "a051dc19-31f4-487f-85cb-a29fa9eae4b1",
-          "width": 32,
+          "layer": "Tilemap",
+          "name": "BarroInferiorEsquerdo",
+          "persistentUuid": "ad5e0364-2939-4302-bd3e-6eac7d5b6469",
+          "width": 0,
           "x": 1600,
-          "y": 416,
+          "y": 1120,
           "zOrder": 39,
           "numberProperties": [],
           "stringProperties": [],
@@ -2258,11 +2322,11 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
-          "name": "BarroInferiorEsquerdo",
-          "persistentUuid": "122f90ac-baa2-40ef-bf4e-8d8d979dc9d4",
+          "layer": "Tilemap",
+          "name": "BarroInferiorDireito",
+          "persistentUuid": "8b0bb9fb-72ab-497a-b52d-64d37767d12e",
           "width": 0,
-          "x": 704,
+          "x": 1248,
           "y": 1120,
           "zOrder": 40,
           "numberProperties": [],
@@ -2271,48 +2335,17 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 100,
           "keepRatio": true,
           "layer": "",
-          "name": "BarroInferiorEsquerdo",
-          "persistentUuid": "40f7ea2f-4918-437a-8812-fe2048bd7c7f",
-          "width": 0,
-          "x": 1600,
-          "y": 1120,
-          "zOrder": 41,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "BarroInferiorEsquerdo",
-          "persistentUuid": "60084022-74df-455f-a7ad-b82320158966",
-          "width": 0,
-          "x": 1600,
-          "y": 512,
-          "zOrder": 42,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "BarroInferiorDireito",
-          "persistentUuid": "f033e29a-f30f-41ba-9899-25ecbc54cee6",
-          "width": 0,
-          "x": 1216,
-          "y": 1120,
-          "zOrder": 43,
+          "name": "Apple",
+          "persistentUuid": "67615dd6-02d6-452c-a8af-26b1a3a36aec",
+          "width": 100,
+          "x": 1180,
+          "y": 352,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2325,9 +2358,9 @@
           "keepRatio": true,
           "layer": "",
           "name": "Apple",
-          "persistentUuid": "f3130e48-2c81-4b1e-96ce-d6342a409ca6",
+          "persistentUuid": "c671caf0-3113-4964-a453-4653f138c597",
           "width": 100,
-          "x": 384,
+          "x": 348,
           "y": 896,
           "zOrder": 4,
           "numberProperties": [],
@@ -2342,26 +2375,9 @@
           "keepRatio": true,
           "layer": "",
           "name": "Apple",
-          "persistentUuid": "e61dcfab-0ddb-4e0b-b2a9-a1d32b377482",
+          "persistentUuid": "9c49f00e-1ae5-4d36-88fd-24e05beeef39",
           "width": 100,
-          "x": 1148,
-          "y": 288,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 100,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Apple",
-          "persistentUuid": "62ce0c0f-59c2-447e-80e9-bfe1235544bf",
-          "width": 100,
-          "x": 476,
+          "x": 1244,
           "y": 896,
           "zOrder": 4,
           "numberProperties": [],
@@ -2376,10 +2392,10 @@
           "keepRatio": true,
           "layer": "",
           "name": "Apple",
-          "persistentUuid": "af89520c-f8e4-4a19-bc65-39739aaf5062",
+          "persistentUuid": "278572f7-8d04-457c-bdc2-7f8736c63d9d",
           "width": 100,
-          "x": 672,
-          "y": 288,
+          "x": 1084,
+          "y": 352,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -2393,10 +2409,10 @@
           "keepRatio": true,
           "layer": "",
           "name": "Apple",
-          "persistentUuid": "48e54dfc-a830-4f18-ab1f-0cf5463a6a0c",
+          "persistentUuid": "233aef0d-bea2-4a2a-8779-89f505d73ee6",
           "width": 100,
-          "x": 768,
-          "y": 288,
+          "x": 796,
+          "y": 348,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -2410,10 +2426,10 @@
           "keepRatio": true,
           "layer": "",
           "name": "Apple",
-          "persistentUuid": "df8d1574-d97a-407f-8a63-912e44813d03",
+          "persistentUuid": "b1cb21fd-1549-4eee-97ed-f2380e6901ac",
           "width": 100,
-          "x": 864,
-          "y": 288,
+          "x": 700,
+          "y": 352,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -2427,10 +2443,10 @@
           "keepRatio": true,
           "layer": "",
           "name": "Apple",
-          "persistentUuid": "b07f9f96-2a41-46b7-a1ed-959306eb4f3e",
+          "persistentUuid": "c25757b2-77fd-41fb-be3a-a39381f3a462",
           "width": 100,
-          "x": 960,
-          "y": 288,
+          "x": 988,
+          "y": 352,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -2444,10 +2460,10 @@
           "keepRatio": true,
           "layer": "",
           "name": "Apple",
-          "persistentUuid": "fff9f572-ec3c-4dfc-bf19-e218b39c81d3",
+          "persistentUuid": "6927a99e-3a45-460f-8745-9c422993c0af",
           "width": 100,
-          "x": 1056,
-          "y": 288,
+          "x": 892,
+          "y": 352,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -2457,15 +2473,48 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 1312,
+          "height": 1376,
+          "keepRatio": true,
+          "layer": "Fundo",
+          "name": "Fundo",
+          "persistentUuid": "36a78c5b-ae25-48ce-b438-238f916a5eb9",
+          "width": 2176,
+          "x": -128,
+          "y": -128,
+          "zOrder": 41,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Fundo",
-          "persistentUuid": "700ad014-9fe7-4f21-a57d-0f42d4cb4201",
-          "width": 2208,
-          "x": -128,
-          "y": -96,
-          "zOrder": -1,
+          "name": "ObjetivoFinal",
+          "persistentUuid": "a6b978be-7e49-4de2-b179-ee6ec5b1028d",
+          "width": 0,
+          "x": 173,
+          "y": 339,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 192,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ZonaDaMorte",
+          "persistentUuid": "5ceec297-b11a-4454-a751-2b9a13fffc86",
+          "width": 2304,
+          "x": -192,
+          "y": 1216,
+          "zOrder": 42,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4732,6 +4781,25 @@
           ]
         },
         {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "CorpoColisaoChao",
+          "texture": "NewTiledSprite",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Spike",
@@ -6128,7 +6196,6 @@
           "behaviors": [
             {
               "canBeGrabbed": true,
-              "isFolded": true,
               "name": "Platform",
               "platformType": "Jumpthru",
               "type": "PlatformBehavior::PlatformBehavior",
@@ -6506,10 +6573,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ]
@@ -6523,7 +6590,15 @@
           "width": 32,
           "variables": [],
           "effects": [],
-          "behaviors": []
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
         },
         {
           "assetStoreId": "",
@@ -6534,7 +6609,15 @@
           "width": 32,
           "variables": [],
           "effects": [],
-          "behaviors": []
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
         },
         {
           "assetStoreId": "",
@@ -6633,14 +6716,136 @@
         },
         {
           "assetStoreId": "",
-          "height": 64,
+          "height": 32,
           "name": "Fundo",
           "texture": "Gray.png",
           "type": "TiledSpriteObject::TiledSprite",
-          "width": 64,
+          "width": 32,
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "ObjetivoFinal",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "ZonaDaMorte",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -6651,30 +6856,6 @@
           },
           {
             "objectName": "Apple"
-          },
-          {
-            "objectName": "UI_TextoItensColetados"
-          },
-          {
-            "objectName": "UI_Tempo"
-          },
-          {
-            "objectName": "UI_TextoTempo"
-          },
-          {
-            "objectName": "UI_Apple"
-          },
-          {
-            "objectName": "Spike"
-          },
-          {
-            "objectName": "UI_Vida"
-          },
-          {
-            "objectName": "PlataformaH_1"
-          },
-          {
-            "objectName": "PlataformaV_1"
           },
           {
             "objectName": "Barro"
@@ -6704,7 +6885,40 @@
             "objectName": "BarroInferiorDireito"
           },
           {
+            "objectName": "UI_TextoItensColetados"
+          },
+          {
+            "objectName": "UI_Tempo"
+          },
+          {
+            "objectName": "UI_TextoTempo"
+          },
+          {
+            "objectName": "UI_Apple"
+          },
+          {
+            "objectName": "Spike"
+          },
+          {
+            "objectName": "CorpoColisaoChao"
+          },
+          {
+            "objectName": "UI_Vida"
+          },
+          {
+            "objectName": "PlataformaH_1"
+          },
+          {
+            "objectName": "PlataformaV_1"
+          },
+          {
             "objectName": "Fundo"
+          },
+          {
+            "objectName": "ZonaDaMorte"
+          },
+          {
+            "objectName": "ObjetivoFinal"
           }
         ]
       },
@@ -6761,18 +6975,19 @@
           "target": "PlayerEventos"
         },
         {
-          "colorB": 139,
-          "colorG": 42,
-          "colorR": 134,
+          "colorB": 192,
+          "colorG": 0,
+          "colorR": 143,
           "creationTime": 0,
-          "name": "Plataformas Móveis",
+          "folded": true,
+          "name": "Plataforma Móveis",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "colorB": 196,
-              "colorG": 113,
-              "colorR": 191,
+              "colorB": 253,
+              "colorG": 110,
+              "colorR": 226,
               "creationTime": 0,
               "folded": true,
               "name": "Horizontais",
@@ -6803,7 +7018,7 @@
                         "PlataformaH_1",
                         "100",
                         "0",
-                        "0"
+                        ""
                       ]
                     },
                     {
@@ -6851,7 +7066,7 @@
                         "PlataformaH_1",
                         "-100",
                         "0",
-                        "0"
+                        ""
                       ]
                     },
                     {
@@ -6879,9 +7094,9 @@
               "parameters": []
             },
             {
-              "colorB": 196,
-              "colorG": 113,
-              "colorR": 191,
+              "colorB": 253,
+              "colorG": 110,
+              "colorR": 226,
               "creationTime": 0,
               "name": "Verticais",
               "source": "",
@@ -6911,7 +7126,7 @@
                         "PlataformaV_1",
                         "0",
                         "100",
-                        "0"
+                        ""
                       ]
                     },
                     {
@@ -6959,7 +7174,7 @@
                         "PlataformaV_1",
                         "0",
                         "-100",
-                        "0"
+                        ""
                       ]
                     },
                     {
@@ -6988,9 +7203,150 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "colorB": 0,
+          "colorG": 0,
+          "colorR": 255,
+          "creationTime": 0,
+          "name": "Reiniciar Level",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "ZonaDaMorte",
+                    "Player",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "UI_Vida",
+                    "Animation",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Player",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Level_1\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
         }
       ],
       "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Fundo",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Tilemap",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
         {
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
@@ -7746,7 +8102,6 @@
               "colorG": 163,
               "colorR": 173,
               "creationTime": 0,
-              "folded": true,
               "name": "Spike",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
