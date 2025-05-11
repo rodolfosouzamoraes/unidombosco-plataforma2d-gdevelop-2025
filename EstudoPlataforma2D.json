@@ -16,7 +16,7 @@
     "pixelsRounding": true,
     "projectUuid": "e7121b7e-c2de-4773-af39-aff1f9326570",
     "scaleMode": "nearest",
-    "sizeOnStartupMode": "",
+    "sizeOnStartupMode": "adaptWidth",
     "templateSlug": "",
     "version": "1.0.0",
     "name": "EstudoPlataforma2D",
@@ -1624,7 +1624,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.2796226521839392,
+        "zoomFactor": 0.2890516203134935,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1686,7 +1686,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "UI_GAME",
           "name": "UI_TextoItensColetados",
           "persistentUuid": "ddc8ea6a-fd21-495e-b781-b1b27416df5a",
           "width": 0,
@@ -1703,7 +1703,7 @@
           "depth": 0,
           "height": 150,
           "keepRatio": true,
-          "layer": "",
+          "layer": "UI_GAME",
           "name": "UI_Apple",
           "persistentUuid": "9d812e8e-a97e-44b6-a4a8-514c65dce107",
           "width": 150,
@@ -1771,7 +1771,7 @@
           "depth": 0,
           "height": 83.33333333333331,
           "keepRatio": true,
-          "layer": "",
+          "layer": "UI_GAME",
           "name": "UI_Vida",
           "persistentUuid": "0277637e-e720-4d5f-8be6-07175a23150f",
           "width": 200,
@@ -1787,7 +1787,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "UI_GAME",
           "name": "UI_TextoTempo",
           "persistentUuid": "e1773a9d-c8bd-4693-a027-fc8bd9661e37",
           "width": 0,
@@ -1804,7 +1804,7 @@
           "depth": 0,
           "height": 69,
           "keepRatio": true,
-          "layer": "",
+          "layer": "UI_GAME",
           "name": "UI_Tempo",
           "persistentUuid": "fe85f9e3-f077-4d61-8a7b-158f6ab88da4",
           "width": 69,
@@ -5733,7 +5733,18 @@
           "underlined": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "bottomEdgeAnchor": 0,
+              "leftEdgeAnchor": 4,
+              "name": "Anchor",
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 4,
+              "topEdgeAnchor": 1,
+              "type": "AnchorBehavior::AnchorBehavior",
+              "useLegacyBottomAndRightAnchors": false
+            }
+          ],
           "string": "x0",
           "font": "DePixelHalbfett.otf",
           "textAlignment": "left",
@@ -5773,7 +5784,18 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "bottomEdgeAnchor": 0,
+              "leftEdgeAnchor": 4,
+              "name": "Anchor",
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 4,
+              "topEdgeAnchor": 1,
+              "type": "AnchorBehavior::AnchorBehavior",
+              "useLegacyBottomAndRightAnchors": false
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -5833,7 +5855,18 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "bottomEdgeAnchor": 0,
+              "leftEdgeAnchor": 1,
+              "name": "Anchor",
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 0,
+              "topEdgeAnchor": 1,
+              "type": "AnchorBehavior::AnchorBehavior",
+              "useLegacyBottomAndRightAnchors": false
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -6087,7 +6120,18 @@
           "underlined": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "bottomEdgeAnchor": 0,
+              "leftEdgeAnchor": 0,
+              "name": "Anchor",
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 2,
+              "topEdgeAnchor": 1,
+              "type": "AnchorBehavior::AnchorBehavior",
+              "useLegacyBottomAndRightAnchors": false
+            }
+          ],
           "string": "0",
           "font": "DePixelHalbfett.otf",
           "textAlignment": "left",
@@ -6127,7 +6171,18 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "bottomEdgeAnchor": 0,
+              "leftEdgeAnchor": 0,
+              "name": "Anchor",
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 2,
+              "topEdgeAnchor": 1,
+              "type": "AnchorBehavior::AnchorBehavior",
+              "useLegacyBottomAndRightAnchors": false
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -6195,10 +6250,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "Jumpthru",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "Jumpthru",
               "yGrabOffset": 0
             }
           ],
@@ -6554,10 +6609,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ]
@@ -6852,73 +6907,88 @@
         "folderName": "__ROOT",
         "children": [
           {
-            "objectName": "Player"
+            "folderName": "UI",
+            "children": [
+              {
+                "objectName": "UI_Vida"
+              },
+              {
+                "objectName": "UI_Apple"
+              },
+              {
+                "objectName": "UI_TextoTempo"
+              },
+              {
+                "objectName": "UI_Tempo"
+              },
+              {
+                "objectName": "UI_TextoItensColetados"
+              }
+            ]
           },
           {
-            "objectName": "Apple"
+            "folderName": "Objetos",
+            "children": [
+              {
+                "objectName": "ObjetivoFinal"
+              },
+              {
+                "objectName": "PlataformaV_1"
+              },
+              {
+                "objectName": "PlataformaH_1"
+              },
+              {
+                "objectName": "Spike"
+              },
+              {
+                "objectName": "Apple"
+              },
+              {
+                "objectName": "Player"
+              }
+            ]
           },
           {
-            "objectName": "Barro"
-          },
-          {
-            "objectName": "GramaTopo"
-          },
-          {
-            "objectName": "GramaDireito"
-          },
-          {
-            "objectName": "GramaEsquerdo"
-          },
-          {
-            "objectName": "BarroBase"
-          },
-          {
-            "objectName": "BarroDireito"
-          },
-          {
-            "objectName": "BarroEsquerdo"
-          },
-          {
-            "objectName": "BarroInferiorEsquerdo"
-          },
-          {
-            "objectName": "BarroInferiorDireito"
-          },
-          {
-            "objectName": "UI_TextoItensColetados"
-          },
-          {
-            "objectName": "UI_Tempo"
-          },
-          {
-            "objectName": "UI_TextoTempo"
-          },
-          {
-            "objectName": "UI_Apple"
-          },
-          {
-            "objectName": "Spike"
-          },
-          {
-            "objectName": "CorpoColisaoChao"
-          },
-          {
-            "objectName": "UI_Vida"
-          },
-          {
-            "objectName": "PlataformaH_1"
-          },
-          {
-            "objectName": "PlataformaV_1"
-          },
-          {
-            "objectName": "Fundo"
-          },
-          {
-            "objectName": "ZonaDaMorte"
-          },
-          {
-            "objectName": "ObjetivoFinal"
+            "folderName": "Cenário",
+            "children": [
+              {
+                "objectName": "CorpoColisaoChao"
+              },
+              {
+                "objectName": "ZonaDaMorte"
+              },
+              {
+                "objectName": "Fundo"
+              },
+              {
+                "objectName": "BarroInferiorDireito"
+              },
+              {
+                "objectName": "BarroInferiorEsquerdo"
+              },
+              {
+                "objectName": "BarroEsquerdo"
+              },
+              {
+                "objectName": "BarroDireito"
+              },
+              {
+                "objectName": "BarroBase"
+              },
+              {
+                "objectName": "GramaEsquerdo"
+              },
+              {
+                "objectName": "GramaDireito"
+              },
+              {
+                "objectName": "GramaTopo"
+              },
+              {
+                "objectName": "Barro"
+              }
+            ]
           }
         ]
       },
@@ -7358,6 +7428,39 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
+          "name": "UI_GAME",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
           "name": "",
           "renderingType": "",
           "visibility": true,
@@ -7396,6 +7499,10 @@
         {
           "name": "AdvancedJump",
           "type": "AdvancedJump::AdvancedJump"
+        },
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior"
         },
         {
           "name": "Animation",
