@@ -11,12 +11,12 @@
     "antialiasingMode": "MSAA",
     "antialisingEnabledOnMobile": false,
     "folderProject": false,
-    "orientation": "default",
+    "orientation": "landscape",
     "packageName": "com.example.gamename",
     "pixelsRounding": true,
     "projectUuid": "e7121b7e-c2de-4773-af39-aff1f9326570",
     "scaleMode": "nearest",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "scaleOuter",
     "templateSlug": "",
     "version": "1.0.0",
     "name": "EstudoPlataforma2D",
@@ -24,7 +24,7 @@
     "author": "",
     "windowWidth": 1920,
     "windowHeight": 1080,
-    "latestCompilationDirectory": "C:\\Users\\rod_s\\OneDrive\\Documentos\\GDevelop projects\\builds\\virtual-guy-adventure",
+    "latestCompilationDirectory": "C:\\Users\\rod_s\\OneDrive\\Documentos\\GDevelop projects\\builds\\vga4",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -1672,7 +1672,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.29879853636069276,
+        "zoomFactor": 0.28905162031349385,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -5850,13 +5850,13 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
               "bottomEdgeAnchor": 0,
               "leftEdgeAnchor": 4,
-              "name": "Anchor",
               "relativeToOriginalWindowSize": true,
               "rightEdgeAnchor": 4,
               "topEdgeAnchor": 1,
-              "type": "AnchorBehavior::AnchorBehavior",
               "useLegacyBottomAndRightAnchors": false
             }
           ],
@@ -5901,13 +5901,13 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
               "bottomEdgeAnchor": 0,
               "leftEdgeAnchor": 4,
-              "name": "Anchor",
               "relativeToOriginalWindowSize": true,
               "rightEdgeAnchor": 4,
               "topEdgeAnchor": 1,
-              "type": "AnchorBehavior::AnchorBehavior",
               "useLegacyBottomAndRightAnchors": false
             }
           ],
@@ -5972,13 +5972,13 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
               "bottomEdgeAnchor": 0,
               "leftEdgeAnchor": 1,
-              "name": "Anchor",
               "relativeToOriginalWindowSize": true,
               "rightEdgeAnchor": 0,
               "topEdgeAnchor": 1,
-              "type": "AnchorBehavior::AnchorBehavior",
               "useLegacyBottomAndRightAnchors": false
             }
           ],
@@ -6237,13 +6237,13 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
               "bottomEdgeAnchor": 0,
               "leftEdgeAnchor": 0,
-              "name": "Anchor",
               "relativeToOriginalWindowSize": true,
               "rightEdgeAnchor": 2,
               "topEdgeAnchor": 1,
-              "type": "AnchorBehavior::AnchorBehavior",
               "useLegacyBottomAndRightAnchors": false
             }
           ],
@@ -6288,13 +6288,13 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
               "bottomEdgeAnchor": 0,
               "leftEdgeAnchor": 0,
-              "name": "Anchor",
               "relativeToOriginalWindowSize": true,
               "rightEdgeAnchor": 2,
               "topEdgeAnchor": 1,
-              "type": "AnchorBehavior::AnchorBehavior",
               "useLegacyBottomAndRightAnchors": false
             }
           ],
@@ -7027,14 +7027,24 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
               "bottomEdgeAnchor": 2,
               "leftEdgeAnchor": 1,
-              "name": "Anchor",
               "relativeToOriginalWindowSize": true,
               "rightEdgeAnchor": 0,
               "topEdgeAnchor": 0,
-              "type": "AnchorBehavior::AnchorBehavior",
               "useLegacyBottomAndRightAnchors": false
+            },
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
             }
           ],
           "animations": [
@@ -7106,6 +7116,16 @@
               "rightEdgeAnchor": 0,
               "topEdgeAnchor": 0,
               "useLegacyBottomAndRightAnchors": false
+            },
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
             }
           ],
           "animations": [
@@ -7169,14 +7189,24 @@
           "effects": [],
           "behaviors": [
             {
-              "leftEdgeAnchor": 0,
               "name": "Anchor",
-              "rightEdgeAnchor": 2,
               "type": "AnchorBehavior::AnchorBehavior",
+              "leftEdgeAnchor": 0,
+              "rightEdgeAnchor": 2,
               "bottomEdgeAnchor": 2,
               "relativeToOriginalWindowSize": true,
               "topEdgeAnchor": 0,
               "useLegacyBottomAndRightAnchors": false
+            },
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
             }
           ],
           "animations": [
@@ -7248,6 +7278,16 @@
               "relativeToOriginalWindowSize": true,
               "topEdgeAnchor": 0,
               "useLegacyBottomAndRightAnchors": false
+            },
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
             }
           ],
           "animations": [
@@ -7926,6 +7966,10 @@
           "type": "AnimatableCapability::AnimatableBehavior"
         },
         {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM"
+        },
+        {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
         },
@@ -8076,12 +8120,11 @@
                             },
                             {
                               "type": {
-                                "value": "SourisSurObjet"
+                                "value": "ButtonStates::ButtonFSM::IsPressed"
                               },
                               "parameters": [
                                 "UI_BtnLeft",
-                                "",
-                                "",
+                                "ButtonFSM",
                                 ""
                               ]
                             }
@@ -8120,12 +8163,11 @@
                             },
                             {
                               "type": {
-                                "value": "SourisSurObjet"
+                                "value": "ButtonStates::ButtonFSM::IsPressed"
                               },
                               "parameters": [
                                 "UI_BtnRight",
-                                "",
-                                "",
+                                "ButtonFSM",
                                 ""
                               ]
                             }
@@ -8164,12 +8206,11 @@
                             },
                             {
                               "type": {
-                                "value": "SourisSurObjet"
+                                "value": "ButtonStates::ButtonFSM::IsClicked"
                               },
                               "parameters": [
                                 "UI_BtnJump",
-                                "",
-                                "",
+                                "ButtonFSM",
                                 ""
                               ]
                             }
@@ -8562,12 +8603,11 @@
                             },
                             {
                               "type": {
-                                "value": "SourisSurObjet"
+                                "value": "ButtonStates::ButtonFSM::IsClicked"
                               },
                               "parameters": [
                                 "UI_BtnDash",
-                                "",
-                                "",
+                                "ButtonFSM",
                                 ""
                               ]
                             }
