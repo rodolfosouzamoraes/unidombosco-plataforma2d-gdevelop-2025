@@ -1,7 +1,7 @@
 {
-  "firstLayout": "",
+  "firstLayout": "Menu",
   "gdVersion": {
-    "build": 228,
+    "build": 230,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -24,7 +24,7 @@
     "author": "",
     "windowWidth": 1920,
     "windowHeight": 1080,
-    "latestCompilationDirectory": "C:\\Users\\rod_s\\OneDrive\\Documentos\\GDevelop projects\\builds\\vga4",
+    "latestCompilationDirectory": "C:\\Users\\rod_s\\OneDrive\\Documentos\\GDevelop projects\\builds\\vga5",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -1579,14 +1579,6 @@
         "userAdded": false
       },
       {
-        "file": "shadedDark24.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "shadedDark24.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "transparentDark22.png",
         "kind": "image",
         "metadata": "",
@@ -1603,6 +1595,14 @@
         "userAdded": false
       },
       {
+        "file": "transparentDark47.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "transparentDark47.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
         "file": "transparentDark24.png",
         "kind": "image",
         "metadata": "",
@@ -1611,18 +1611,26 @@
         "userAdded": false
       },
       {
-        "file": "transparentDark47.png",
+        "file": "button_rectangle_depth_border.png",
         "kind": "image",
-        "metadata": "{\"localFilePath\":\"transparentDark47.png\",\"extension\":\".png\"}",
-        "name": "transparentDark47.png",
+        "metadata": "",
+        "name": "button_rectangle_depth_border.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "transparentDark48.png",
+        "file": "tumb jogo (1).png",
         "kind": "image",
         "metadata": "",
-        "name": "transparentDark48.png",
+        "name": "tumb jogo (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "button_rectangle_depth_border2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "button_rectangle_depth_border2.png",
         "smoothed": false,
         "userAdded": false
       }
@@ -1672,7 +1680,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.28905162031349385,
+        "zoomFactor": 0.2216924727500532,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1839,7 +1847,7 @@
           "name": "UI_TextoTempo",
           "persistentUuid": "e1773a9d-c8bd-4693-a027-fc8bd9661e37",
           "width": 0,
-          "x": 1813,
+          "x": 1787,
           "y": 22,
           "zOrder": 8,
           "numberProperties": [],
@@ -1856,7 +1864,7 @@
           "name": "UI_Tempo",
           "persistentUuid": "fe85f9e3-f077-4d61-8a7b-158f6ab88da4",
           "width": 69,
-          "x": 1711,
+          "x": 1685,
           "y": 27,
           "zOrder": 9,
           "numberProperties": [],
@@ -1901,7 +1909,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 160,
+          "height": 224,
           "keepRatio": true,
           "layer": "Tilemap",
           "name": "Barro",
@@ -1918,7 +1926,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 160,
+          "height": 224,
           "keepRatio": true,
           "layer": "Tilemap",
           "name": "Barro",
@@ -1935,12 +1943,12 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 1216,
+          "height": 1280,
           "keepRatio": true,
           "layer": "Tilemap",
           "name": "Barro",
           "persistentUuid": "1ba48c0e-60dc-4563-8579-b08ccf7de0c3",
-          "width": 160,
+          "width": 576,
           "x": 1856,
           "y": -64,
           "zOrder": 14,
@@ -1952,14 +1960,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 160,
+          "height": 448,
           "keepRatio": true,
           "layer": "Tilemap",
           "name": "Barro",
           "persistentUuid": "13dff946-a49e-4ec7-9db8-ca287e92afcc",
-          "width": 1952,
+          "width": 2528,
           "x": -96,
-          "y": -64,
+          "y": -352,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -1969,14 +1977,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 896,
+          "height": 1568,
           "keepRatio": true,
           "layer": "Tilemap",
           "name": "Barro",
           "persistentUuid": "ec1ad682-e0e6-4adc-b2b0-c09f802fb756",
-          "width": 160,
-          "x": -96,
-          "y": 96,
+          "width": 640,
+          "x": -576,
+          "y": -352,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -2570,14 +2578,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0.78125,
-          "height": 150,
+          "depth": 0,
+          "height": 200,
+          "keepRatio": true,
           "layer": "UI_GAME",
-          "name": "UI_BtnLeft",
-          "persistentUuid": "f99b48c2-9493-4a2b-9ac3-33d17384640f",
-          "width": 150,
-          "x": 32,
-          "y": 876,
+          "name": "UI_BtnEsquerdo",
+          "persistentUuid": "21bf5ee9-948e-4051-8cff-07e26b84c829",
+          "width": 200,
+          "x": 64,
+          "y": 830,
           "zOrder": 43,
           "numberProperties": [],
           "stringProperties": [],
@@ -2587,14 +2596,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 150,
+          "height": 200,
           "keepRatio": true,
           "layer": "UI_GAME",
-          "name": "UI_BtnRight",
-          "persistentUuid": "e7a04615-8f55-4645-afa1-3c495b37dad8",
-          "width": 150,
-          "x": 256,
-          "y": 876,
+          "name": "UI_BtnDireito",
+          "persistentUuid": "790fd4f9-278e-418f-a898-484b04158c6b",
+          "width": 200,
+          "x": 357,
+          "y": 830,
           "zOrder": 44,
           "numberProperties": [],
           "stringProperties": [],
@@ -2604,14 +2613,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 150,
+          "height": 200,
           "keepRatio": true,
           "layer": "UI_GAME",
-          "name": "UI_BtnJump",
-          "persistentUuid": "79a92619-754d-4e70-add7-f80675e00961",
-          "width": 150,
-          "x": 1728,
-          "y": 876,
+          "name": "UI_BtnDash",
+          "persistentUuid": "f5deb035-aaaa-4658-b7d3-8e683ad7c926",
+          "width": 200,
+          "x": 1432,
+          "y": 608,
           "zOrder": 45,
           "numberProperties": [],
           "stringProperties": [],
@@ -2621,14 +2630,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 150,
+          "height": 200,
           "keepRatio": true,
           "layer": "UI_GAME",
-          "name": "UI_BtnDash",
-          "persistentUuid": "cf6cb027-de23-4651-bd89-d42fa67cdc84",
-          "width": 150,
-          "x": 1568,
-          "y": 726,
+          "name": "UI_BtnPulo",
+          "persistentUuid": "bf238500-2128-4900-b8aa-b43ddc291290",
+          "width": 200,
+          "x": 1657,
+          "y": 830,
           "zOrder": 46,
           "numberProperties": [],
           "stringProperties": [],
@@ -2675,7 +2684,7 @@
               "WasJumpKeyReleased": false
             },
             {
-              "isFolded": true,
+              "maxSpeed": 350,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
               "gravity": 1000,
@@ -2689,7 +2698,6 @@
               "jumpSustainTime": 0.2,
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 1000,
-              "maxSpeed": 250,
               "slopeMaxAngle": 60,
               "useLegacyTrajectory": false,
               "xGrabTolerance": 10,
@@ -5850,13 +5858,13 @@
           "effects": [],
           "behaviors": [
             {
-              "name": "Anchor",
-              "type": "AnchorBehavior::AnchorBehavior",
               "bottomEdgeAnchor": 0,
               "leftEdgeAnchor": 4,
+              "name": "Anchor",
               "relativeToOriginalWindowSize": true,
               "rightEdgeAnchor": 4,
               "topEdgeAnchor": 1,
+              "type": "AnchorBehavior::AnchorBehavior",
               "useLegacyBottomAndRightAnchors": false
             }
           ],
@@ -5901,13 +5909,13 @@
           "effects": [],
           "behaviors": [
             {
-              "name": "Anchor",
-              "type": "AnchorBehavior::AnchorBehavior",
               "bottomEdgeAnchor": 0,
               "leftEdgeAnchor": 4,
+              "name": "Anchor",
               "relativeToOriginalWindowSize": true,
               "rightEdgeAnchor": 4,
               "topEdgeAnchor": 1,
+              "type": "AnchorBehavior::AnchorBehavior",
               "useLegacyBottomAndRightAnchors": false
             }
           ],
@@ -5972,13 +5980,13 @@
           "effects": [],
           "behaviors": [
             {
-              "name": "Anchor",
-              "type": "AnchorBehavior::AnchorBehavior",
               "bottomEdgeAnchor": 0,
               "leftEdgeAnchor": 1,
+              "name": "Anchor",
               "relativeToOriginalWindowSize": true,
               "rightEdgeAnchor": 0,
               "topEdgeAnchor": 1,
+              "type": "AnchorBehavior::AnchorBehavior",
               "useLegacyBottomAndRightAnchors": false
             }
           ],
@@ -6237,13 +6245,13 @@
           "effects": [],
           "behaviors": [
             {
-              "name": "Anchor",
-              "type": "AnchorBehavior::AnchorBehavior",
               "bottomEdgeAnchor": 0,
               "leftEdgeAnchor": 0,
+              "name": "Anchor",
               "relativeToOriginalWindowSize": true,
               "rightEdgeAnchor": 2,
               "topEdgeAnchor": 1,
+              "type": "AnchorBehavior::AnchorBehavior",
               "useLegacyBottomAndRightAnchors": false
             }
           ],
@@ -6288,13 +6296,13 @@
           "effects": [],
           "behaviors": [
             {
-              "name": "Anchor",
-              "type": "AnchorBehavior::AnchorBehavior",
               "bottomEdgeAnchor": 0,
               "leftEdgeAnchor": 0,
+              "name": "Anchor",
               "relativeToOriginalWindowSize": true,
               "rightEdgeAnchor": 2,
               "topEdgeAnchor": 1,
+              "type": "AnchorBehavior::AnchorBehavior",
               "useLegacyBottomAndRightAnchors": false
             }
           ],
@@ -7020,20 +7028,20 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "UI_BtnLeft",
+          "name": "UI_BtnEsquerdo",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
           "behaviors": [
             {
-              "name": "Anchor",
-              "type": "AnchorBehavior::AnchorBehavior",
               "bottomEdgeAnchor": 2,
               "leftEdgeAnchor": 1,
+              "name": "Anchor",
               "relativeToOriginalWindowSize": true,
               "rightEdgeAnchor": 0,
               "topEdgeAnchor": 0,
+              "type": "AnchorBehavior::AnchorBehavior",
               "useLegacyBottomAndRightAnchors": false
             },
             {
@@ -7101,7 +7109,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "UI_BtnRight",
+          "name": "UI_BtnDireito",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -7182,7 +7190,88 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "UI_BtnJump",
+          "name": "UI_BtnDash",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "leftEdgeAnchor": 0,
+              "name": "Anchor",
+              "rightEdgeAnchor": 2,
+              "type": "AnchorBehavior::AnchorBehavior",
+              "bottomEdgeAnchor": 2,
+              "relativeToOriginalWindowSize": true,
+              "topEdgeAnchor": 0,
+              "useLegacyBottomAndRightAnchors": false
+            },
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "transparentDark47.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 80,
+                            "y": 0
+                          },
+                          {
+                            "x": 80,
+                            "y": 80
+                          },
+                          {
+                            "x": 0,
+                            "y": 80
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "UI_BtnPulo",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -7259,87 +7348,6 @@
               ]
             }
           ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "UI_BtnDash",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Anchor",
-              "type": "AnchorBehavior::AnchorBehavior",
-              "leftEdgeAnchor": 0,
-              "rightEdgeAnchor": 2,
-              "bottomEdgeAnchor": 2,
-              "relativeToOriginalWindowSize": true,
-              "topEdgeAnchor": 0,
-              "useLegacyBottomAndRightAnchors": false
-            },
-            {
-              "name": "ButtonFSM",
-              "type": "ButtonStates::ButtonFSM",
-              "ShouldCheckHovering": true,
-              "State": "Idle",
-              "TouchId": 0,
-              "TouchIsInside": false,
-              "MouseIsInside": false,
-              "Index": 2.0247e-320
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "transparentDark48.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 80,
-                            "y": 0
-                          },
-                          {
-                            "x": 80,
-                            "y": 80
-                          },
-                          {
-                            "x": 0,
-                            "y": 80
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ],
       "objectsFolderStructure": {
@@ -7355,25 +7363,25 @@
                 "objectName": "UI_Apple"
               },
               {
-                "objectName": "UI_TextoTempo"
+                "objectName": "UI_TextoItensColetados"
               },
               {
                 "objectName": "UI_Tempo"
               },
               {
-                "objectName": "UI_TextoItensColetados"
+                "objectName": "UI_TextoTempo"
               },
               {
-                "objectName": "UI_BtnLeft"
+                "objectName": "UI_BtnEsquerdo"
               },
               {
-                "objectName": "UI_BtnRight"
-              },
-              {
-                "objectName": "UI_BtnJump"
+                "objectName": "UI_BtnDireito"
               },
               {
                 "objectName": "UI_BtnDash"
+              },
+              {
+                "objectName": "UI_BtnPulo"
               }
             ]
           },
@@ -7404,13 +7412,13 @@
             "folderName": "Cenário",
             "children": [
               {
-                "objectName": "CorpoColisaoChao"
-              },
-              {
                 "objectName": "ZonaDaMorte"
               },
               {
                 "objectName": "Fundo"
+              },
+              {
+                "objectName": "CorpoColisaoChao"
               },
               {
                 "objectName": "BarroInferiorDireito"
@@ -7803,8 +7811,32 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "ObjetivoFinal",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"FimDeJogo\"",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -8002,6 +8034,810 @@
           "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
+    },
+    {
+      "b": 50,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Menu",
+      "name": "Menu",
+      "r": 5,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 10,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.3192894589690163,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "UI_BtnJogar",
+          "persistentUuid": "e9744b45-7849-409f-b6de-ac2b5a07e577",
+          "width": 0,
+          "x": 775,
+          "y": 606,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 114,
+          "keepRatio": true,
+          "layer": "",
+          "name": "UI_TxtJogar",
+          "persistentUuid": "a9bab0fe-89f9-498e-ade3-7663275bfebc",
+          "width": 373,
+          "x": 783,
+          "y": 667,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 675,
+          "keepRatio": true,
+          "layer": "",
+          "name": "UI_Logo",
+          "persistentUuid": "80f82085-668d-4d7f-8925-4cfb863c89d7",
+          "width": 2025,
+          "x": -48,
+          "y": -34,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "UI_BtnJogar",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "bottomEdgeAnchor": 2,
+              "leftEdgeAnchor": 4,
+              "name": "Anchor",
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 4,
+              "topEdgeAnchor": 0,
+              "type": "AnchorBehavior::AnchorBehavior",
+              "useLegacyBottomAndRightAnchors": false
+            },
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "button_rectangle_depth_border.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 384,
+                            "y": 0
+                          },
+                          {
+                            "x": 384,
+                            "y": 128
+                          },
+                          {
+                            "x": 0,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "UI_TxtJogar",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "bottomEdgeAnchor": 2,
+              "leftEdgeAnchor": 4,
+              "name": "Anchor",
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 4,
+              "topEdgeAnchor": 0,
+              "type": "AnchorBehavior::AnchorBehavior",
+              "useLegacyBottomAndRightAnchors": false
+            }
+          ],
+          "string": "Jogar",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 50,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Jogar",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "center",
+            "characterSize": 50,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "UI_Logo",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "bottomEdgeAnchor": 0,
+              "leftEdgeAnchor": 4,
+              "name": "Anchor",
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 4,
+              "topEdgeAnchor": 1,
+              "type": "AnchorBehavior::AnchorBehavior",
+              "useLegacyBottomAndRightAnchors": false
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "tumb jogo (1).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1500,
+                            "y": 0
+                          },
+                          {
+                            "x": 1500,
+                            "y": 500
+                          },
+                          {
+                            "x": 0,
+                            "y": 500
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "UI_BtnJogar"
+          },
+          {
+            "objectName": "UI_TxtJogar"
+          },
+          {
+            "objectName": "UI_Logo"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "UI_BtnJogar",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level_1\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior"
+        },
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
+    },
+    {
+      "b": 50,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "FimDeJogo",
+      "name": "FimDeJogo",
+      "r": 5,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 10,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.3411856023473448,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "UI_BtnMenu",
+          "persistentUuid": "8b8b505c-302c-4a9d-8c5d-57b54b231e63",
+          "width": 0,
+          "x": 757,
+          "y": 610,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "UI_TxtMenu",
+          "persistentUuid": "ebb252fc-7b45-4140-acde-e4ec3a867935",
+          "width": 0,
+          "x": 880,
+          "y": 667,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "UI_TxtTitulo",
+          "persistentUuid": "d1bd1559-5f29-429f-bfd8-64e4e4e06698",
+          "width": 0,
+          "x": 145,
+          "y": 293,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "UI_BtnMenu",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "bottomEdgeAnchor": 2,
+              "leftEdgeAnchor": 4,
+              "name": "Anchor",
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 4,
+              "topEdgeAnchor": 0,
+              "type": "AnchorBehavior::AnchorBehavior",
+              "useLegacyBottomAndRightAnchors": false
+            },
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "button_rectangle_depth_border2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 384,
+                            "y": 0
+                          },
+                          {
+                            "x": 384,
+                            "y": 128
+                          },
+                          {
+                            "x": 0,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "UI_TxtMenu",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "bottomEdgeAnchor": 2,
+              "leftEdgeAnchor": 4,
+              "name": "Anchor",
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 4,
+              "topEdgeAnchor": 0,
+              "type": "AnchorBehavior::AnchorBehavior",
+              "useLegacyBottomAndRightAnchors": false
+            }
+          ],
+          "string": "Menu",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 50,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Menu",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "center",
+            "characterSize": 50,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "UI_TxtTitulo",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "bottomEdgeAnchor": 0,
+              "leftEdgeAnchor": 4,
+              "name": "Anchor",
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 4,
+              "topEdgeAnchor": 1,
+              "type": "AnchorBehavior::AnchorBehavior",
+              "useLegacyBottomAndRightAnchors": false
+            }
+          ],
+          "string": "Parabéns!\nVocê completou o Level!",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 150,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Parabéns!\nVocê completou o Level!",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "center",
+            "characterSize": 150,
+            "color": "255;255;255"
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "UI_BtnMenu"
+          },
+          {
+            "objectName": "UI_TxtMenu"
+          },
+          {
+            "objectName": "UI_TxtTitulo"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "UI_BtnMenu",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Menu\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior"
+        },
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
     }
   ],
   "externalEvents": [
@@ -8123,7 +8959,7 @@
                                 "value": "ButtonStates::ButtonFSM::IsPressed"
                               },
                               "parameters": [
-                                "UI_BtnLeft",
+                                "UI_BtnEsquerdo",
                                 "ButtonFSM",
                                 ""
                               ]
@@ -8166,7 +9002,7 @@
                                 "value": "ButtonStates::ButtonFSM::IsPressed"
                               },
                               "parameters": [
-                                "UI_BtnRight",
+                                "UI_BtnDireito",
                                 "ButtonFSM",
                                 ""
                               ]
@@ -8209,7 +9045,7 @@
                                 "value": "ButtonStates::ButtonFSM::IsClicked"
                               },
                               "parameters": [
-                                "UI_BtnJump",
+                                "UI_BtnPulo",
                                 "ButtonFSM",
                                 ""
                               ]
@@ -8742,7 +9578,6 @@
               "colorG": 163,
               "colorR": 173,
               "creationTime": 0,
-              "folded": true,
               "name": "Spike",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
