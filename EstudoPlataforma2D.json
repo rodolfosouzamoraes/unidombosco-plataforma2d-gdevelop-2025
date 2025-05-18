@@ -1689,6 +1689,106 @@
         "name": "transparentDark12.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "08 - Passos.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "08 - Passos.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "01 - Jump.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "01 - Jump.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "14 - Dash.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "14 - Dash.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "13 - Dano3.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "13 - Dano3.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "09 - Death.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "09 - Death.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "03 - Fruta.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "03 - Fruta.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "04 - Win.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "04 - Win.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "02 - Surgir.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "02 - Surgir.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "MusicGame.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "MusicGame.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "MusicMenu.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "MusicMenu.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1736,7 +1836,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.475358508712697,
+        "zoomFactor": 0.5079575118131775,
         "windowMask": true
       },
       "objectsGroups": [],
@@ -2894,6 +2994,16 @@
               "name": "vida",
               "type": "number",
               "value": 4
+            },
+            {
+              "name": "somDePassos",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "somDePulo",
+              "type": "number",
+              "value": 0
             }
           ],
           "effects": [],
@@ -8343,6 +8453,18 @@
                 "=",
                 "15"
               ]
+            },
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "MusicGame.ogg",
+                "yes",
+                "",
+                ""
+              ]
             }
           ]
         },
@@ -8588,7 +8710,6 @@
           "colorG": 0,
           "colorR": 255,
           "creationTime": 0,
-          "folded": true,
           "name": "Reiniciar Level",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8638,6 +8759,18 @@
                 },
                 {
                   "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "09 - Death.wav",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Wait"
                   },
                   "parameters": [
@@ -8676,6 +8809,35 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "04 - Win.wav",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Player",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3"
+              ]
+            },
             {
               "type": {
                 "value": "Scene"
@@ -8720,6 +8882,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -9586,6 +9749,31 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "MusicMenu.ogg",
+                "yes",
+                "",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -10084,6 +10272,12 @@
                 "=",
                 "0"
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -10096,6 +10290,18 @@
                 "Animation",
                 "=",
                 "\"Surgir\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "02 - Surgir.wav",
+                "",
+                "",
+                ""
               ]
             }
           ]
@@ -10344,6 +10550,181 @@
                           ]
                         }
                       ]
+                    },
+                    {
+                      "colorB": 228,
+                      "colorG": 131,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "SOM Movimentação",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "folded": true,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                              },
+                              "parameters": [
+                                "Player",
+                                "PlatformerObject"
+                              ]
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "Sprite"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "=",
+                                    "5"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "somDePassos",
+                                    "=",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "Sprite"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "=",
+                                    "12"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "somDePassos",
+                                    "=",
+                                    "2"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "somDePassos",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "08 - Passos.wav",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "somDePassos",
+                                "=",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "08 - Passos.wav",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "somDePassos",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
                     }
                   ],
                   "parameters": []
@@ -10545,6 +10926,17 @@
                             "=",
                             "\"Pular\""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "somDePulo",
+                            "=",
+                            "1"
+                          ]
                         }
                       ]
                     },
@@ -10585,6 +10977,7 @@
                       ]
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -10653,6 +11046,17 @@
                             "+",
                             "1"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "somDePulo",
+                            "=",
+                            "2"
+                          ]
                         }
                       ],
                       "events": [
@@ -10686,6 +11090,107 @@
                           ]
                         }
                       ]
+                    },
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "SOM Pulo",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "somDePulo",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "01 - Jump.wav",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "somDePulo",
+                                "=",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "01 - Jump.wav",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "somDePulo",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
                     }
                   ],
                   "parameters": []
@@ -10761,6 +11266,18 @@
                           },
                           "parameters": [
                             "Player"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "14 - Dash.ogg",
+                            "",
+                            "",
+                            ""
                           ]
                         }
                       ],
@@ -10967,6 +11484,18 @@
                         "=",
                         "1000"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "13 - Dano3.wav",
+                        "",
+                        "",
+                        ""
+                      ]
                     }
                   ],
                   "events": [
@@ -11037,6 +11566,18 @@
                         },
                         {
                           "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "09 - Death.wav",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "Wait"
                           },
                           "parameters": [
@@ -11065,7 +11606,6 @@
               "colorG": 163,
               "colorR": 173,
               "creationTime": 0,
-              "folded": true,
               "name": "Apple",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -11133,6 +11673,18 @@
                         "Text",
                         "=",
                         "\"x\"+totalItensColetados"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "03 - Fruta.wav",
+                        "",
+                        "",
+                        ""
                       ]
                     },
                     {
